@@ -119,7 +119,7 @@ export default function Layout() {
         <div className="max-w-5xl mx-auto px-4 md:px-10 py-8 md:py-12">
           <OfflineStatus />
           <LearningDataNotice />
-          <Outlet />
+          <Suspense fallback={null}><Outlet /></Suspense>
         </div>
       </main>
 

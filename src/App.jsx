@@ -82,7 +82,7 @@ function App() {
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
         <Router basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
           <ScrollToTop />
-          <RouteLoadBoundary><Suspense fallback={<p role="status" className="p-6 text-brown">Opening notebook page…</p>}><AuthenticatedApp /></Suspense></RouteLoadBoundary>
+          <RouteLoadBoundary><Suspense fallback={null}><AuthenticatedApp /></Suspense></RouteLoadBoundary>
         </Router>
         <Toaster />
     </ThemeProvider>

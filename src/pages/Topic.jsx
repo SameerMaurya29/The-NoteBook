@@ -19,7 +19,7 @@ export default function Topic() {
   const { record } = useQuizHistory();
   useRememberLesson(topic ? id : null, topic ? topic.id : null);
 
-  if (loading) return <div>{buildBack}<p role="status">Opening lesson…</p></div>;
+  if (loading) return <div>{buildBack}</div>;
   if (error) return <div>{buildBack}<p role="alert">{error} <button className="underline" onClick={()=>location.reload()}>Retry</button></p></div>;
   if (!subject || !topic) {
     return (
