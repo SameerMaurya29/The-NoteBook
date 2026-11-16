@@ -2,7 +2,7 @@
 let registration=null;
 export async function registerOffline(){
  if(typeof navigator==='undefined'||!('serviceWorker' in navigator)||!import.meta.env.PROD)return null;
- if(!registration)registration=navigator.serviceWorker.register('/sw.js',{updateViaCache:'none'}).catch(error=>{registration=null;throw error;});
+ if(!registration)registration=navigator.serviceWorker.register(import.meta.env.BASE_URL+'sw.js',{scope:import.meta.env.BASE_URL,updateViaCache:'none'}).catch(error=>{registration=null;throw error;});
  return registration;
 }
 export async function offlineAction(type,extra={}){

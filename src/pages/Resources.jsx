@@ -12,7 +12,7 @@ function Row({r,showKind}){
  return <li className="min-w-0 border border-brown/30 rounded-sm bg-paper-2/30 px-4 py-3">
  <div className="flex flex-wrap items-start justify-between gap-x-4 gap-y-1">
  <h3 className="text-base font-semibold min-w-0">{r.internalPath?<Link className="underline underline-offset-4 break-words inline-flex items-start gap-2" to={r.internalPath}>{r.title} →</Link>:<a className="underline underline-offset-4 break-words inline-flex items-start gap-2" href={r.url} target="_blank" rel="noopener noreferrer"><span>{r.title}{r.format==='PDF'?' (PDF)':''}</span><ExternalLink size={14} className="shrink-0 mt-1" aria-hidden="true"/><span className="sr-only"> (opens external site in a new tab)</span></a>}</h3>
- {PERSONAL&&r.pdf&&<p className="flex gap-4 text-sm shrink-0"><a className="underline py-2 min-h-[44px] inline-flex items-center" href={r.pdf} target="_blank" rel="noopener">Open PDF</a><a className="underline py-2 min-h-[44px] inline-flex items-center" href={r.pdf} download>Download PDF</a></p>}
+ {PERSONAL&&r.pdf&&<p className="flex gap-4 text-sm shrink-0"><a className="underline py-2 min-h-[44px] inline-flex items-center" href={import.meta.env.BASE_URL+r.pdf.replace(/^\//,"")} target="_blank" rel="noopener">Open PDF</a><a className="underline py-2 min-h-[44px] inline-flex items-center" href={import.meta.env.BASE_URL+r.pdf.replace(/^\//,"")} download>Download PDF</a></p>}
  </div>
  <p className="text-sm leading-6 mt-1">{r.description}</p>
  <p className="text-xs text-brown mt-1">{showKind&&<span>{RESOURCE_KINDS[r.kind]} · </span>}{r.access}{r.status==='limited'&&<span className="font-medium"> · Access not fully verified</span>}</p>

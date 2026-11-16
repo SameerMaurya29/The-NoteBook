@@ -22,3 +22,10 @@ User decision, 13 November 2026: prepare only. Do not deploy or upload this proj
 Local review only: http://127.0.0.1:5176/build/os . This is not the future public address and cannot be opened on a phone by typing that phone’s localhost.
 
 - [ ] DO NOT publish a personal build: confirm `dist/` has no `library/` folder and the host receives only the normal `npm run build` output. ./personal-library holds copyrighted PDFs for personal use only.
+
+
+## GitHub Pages deploy (16 Nov 2026)
+- The app now supports a sub-path. Set `NOTEBOOK_BASE=/The-NoteBook/` at build time (default `/`). `npm run build:pages` does this and creates dist/404.html for deep links.
+- `.github/workflows/deploy.yml` builds with the right base from the repo name and publishes only dist/. In repo Settings -> Pages, set Source to GitHub Actions.
+- Manifest ids/paths, fonts.css, the offline worker and the service worker scope are all relative to the base.
+- Verified locally with a GitHub-Pages-like server at /The-NoteBook/: home, deep link, fonts, manifest, worker scope, no failed requests. Not yet verified on the real github.io URL or on real devices.

@@ -1,4 +1,5 @@
 /* Notebook offline worker. Generated build configuration is prepended by Vite. */
+const ROOT=typeof SITE_BASE==='string'?SITE_BASE:'/';
 const PREFIX='notebook-static:';
 const coreName=PREFIX+BUILD+':core';
 const currentPrefix=PREFIX+BUILD+':';
@@ -65,20 +66,20 @@ self.addEventListener('message',event=>{
 async function matchStatic(request){
  const names=await caches.keys();names.sort((a,b)=>Number(b.startsWith(currentPrefix))-Number(a.startsWith(currentPrefix)));for(const name of names){if(!name.startsWith(PREFIX))continue;
   // HTML shell uses active release only; old exact hashed assets support still-open tabs.
-  if(!name.startsWith(currentPrefix)&&!new URL(request.url).pathname.startsWith('/assets/'))continue;
+  if(!name.startsWith(currentPrefix)&&!new URL(request.url).pathname.startsWith(ROOT+'assets/'))continue;
   const cache=await caches.open(name);if(!await cache.match(STATUS))continue;const response=await cache.match(request);if(response)return response;
  }return null;
 }
 self.addEventListener('fetch',event=>{
  const request=event.request,url=new URL(request.url);
- if(request.method!=='GET'||url.origin!==self.location.origin||url.pathname.startsWith('/tests/'))return;
+ if(request.method!=='GET'||url.origin!==self.location.origin||url.pathname.startsWith(ROOT+'tests/'))return;
  if(request.mode==='navigate'){
   event.respondWith((async()=>{
    const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),3000);
    try{const r=await fetch(request,{signal:controller.signal});if(r.ok)return r;}catch{/* origin unavailable */}finally{clearTimeout(timeout);}
-   const cache=await caches.open(coreName);return await cache.match('/index.html')||await cache.match('/offline.html')||new Response('Offline. Reconnect to open the notebook.',{status:503,headers:{'content-type':'text/plain'}});
+   const cache=await caches.open(coreName);return await cache.match(ROOT+'index.html')||await cache.match(ROOT+'offline.html')||new Response('Offline. Reconnect to open the notebook.',{status:503,headers:{'content-type':'text/plain'}});
   })());return;
  }
  // No API, authentication, GitHub/company-list or arbitrary runtime caching.
- if(url.pathname.startsWith('/assets/')||SHELL.includes(url.pathname))event.respondWith((async()=>await matchStatic(request)||fetch(request))());
+ if(url.pathname.startsWith(ROOT+'assets/')||SHELL.includes(url.pathname))event.respondWith((async()=>await matchStatic(request)||fetch(request))());
 });

@@ -32,7 +32,7 @@ import LocalAuthGate from "@/components/LocalAuthGate";
 class PageLoadBoundary extends Component {
   state = {failed:false};
   static getDerivedStateFromError(){return {failed:true};}
-  render(){return this.state.failed?<div role="alert" className="p-6">This page could not load. Reconnect to retry, or return to the offline library. <a className="underline" href="/offline">Offline library</a>. <button className="underline" onClick={()=>location.reload()}>Reload to retry</button></div>:this.props.children;}
+  render(){return this.state.failed?<div role="alert" className="p-6">This page could not load. Reconnect to retry, or return to the offline library. <a className="underline" href={`${import.meta.env.BASE_URL}offline`}>Offline library</a>. <button className="underline" onClick={()=>location.reload()}>Reload to retry</button></div>:this.props.children;}
 }
 function RouteLoadBoundary({children}) {
   const {pathname, search} = useLocation();
@@ -80,7 +80,7 @@ function App() {
 
   return (
     <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
-        <Router>
+        <Router basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
           <ScrollToTop />
           <RouteLoadBoundary><Suspense fallback={<p role="status" className="p-6 text-brown">Opening notebook page…</p>}><AuthenticatedApp /></Suspense></RouteLoadBoundary>
         </Router>

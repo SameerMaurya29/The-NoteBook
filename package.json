@@ -7,6 +7,7 @@
     "dev": "vite",
     "predev": "npm run prepare:content",
     "build": "npm run prepare:content && vite build",
+    "build:pages": "NOTEBOOK_BASE=/The-NoteBook/ npm run build && cp dist/index.html dist/404.html",
     "build:personal": "npm run prepare:content && NOTEBOOK_INCLUDE_BOOKS=1 VITE_PERSONAL_LIBRARY=1 vite build",
     "dev:personal": "npm run prepare:content && NOTEBOOK_INCLUDE_BOOKS=1 VITE_PERSONAL_LIBRARY=1 vite",
     "lint": "eslint . --quiet",

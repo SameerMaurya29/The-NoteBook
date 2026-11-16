@@ -1,0 +1,49 @@
+# Builds the site and publishes ONLY dist/ to GitHub Pages.
+# Works for a project site (https://<user>.github.io/<repo>/) and for a <user>.github.io repo (domain root).
+# Normal build only: the personal-library PDFs are never included.
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Build with the right base path
+        env:
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          if [[ "$REPO" == *.github.io ]]; then BASE=/; else BASE="/$REPO/"; fi
+          echo "Using base $BASE"
+          NOTEBOOK_BASE="$BASE" npm run build
+      - name: SPA fallback so deep links open
+        run: cp dist/index.html dist/404.html
+      - name: Safety check, no personal library in the output
+        run: test ! -d dist/library
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
