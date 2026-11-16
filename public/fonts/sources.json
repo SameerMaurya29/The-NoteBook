@@ -1,0 +1,53 @@
+{
+  "retrieved": "2026-11-13",
+  "source": "Google Fonts CSS2",
+  "families": [
+    "Caveat",
+    "Fraunces",
+    "Work Sans",
+    "JetBrains Mono",
+    "Spectral"
+  ],
+  "sources": [
+    {
+      "file": "latin-0.woff2",
+      "url": "https://fonts.gstatic.com/s/caveat/v23/Wnz6HAc5bAfYB2Q7ZjYY.woff2",
+      "bytes": 74932
+    },
+    {
+      "file": "latin-1.woff2",
+      "url": "https://fonts.gstatic.com/s/fraunces/v38/6NU78FyLNQOQZAnv9bYEvDiIdE9Ea92uemAk_WBq8U_9v0c2Wa0KxC9TeA.woff2",
+      "bytes": 67304
+    },
+    {
+      "file": "latin-2.woff2",
+      "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+      "bytes": 31432
+    },
+    {
+      "file": "latin-3.woff2",
+      "url": "https://fonts.gstatic.com/s/spectral/v15/rnCt-xNNww_2s0amA9M8onrmTA.woff2",
+      "bytes": 22712
+    },
+    {
+      "file": "latin-4.woff2",
+      "url": "https://fonts.gstatic.com/s/spectral/v15/rnCr-xNNww_2s0amA9M5kng.woff2",
+      "bytes": 21696
+    },
+    {
+      "file": "latin-5.woff2",
+      "url": "https://fonts.gstatic.com/s/spectral/v15/rnCs-xNNww_2s0amA9vKsW3BafY.woff2",
+      "bytes": 22836
+    },
+    {
+      "file": "latin-6.woff2",
+      "url": "https://fonts.gstatic.com/s/spectral/v15/rnCs-xNNww_2s0amA9vmtm3BafY.woff2",
+      "bytes": 22936
+    },
+    {
+      "file": "latin-7.woff2",
+      "url": "https://fonts.gstatic.com/s/worksans/v24/QGYsz_wNahGAdqQ43Rh_fKDp.woff2",
+      "bytes": 50316
+    }
+  ]
+}

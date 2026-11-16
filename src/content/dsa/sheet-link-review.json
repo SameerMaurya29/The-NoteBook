@@ -1,0 +1,14 @@
+{
+  "reviewedAt": "2026-11-13",
+  "catalogSource": "https://github.com/Roshan-Here/leetcode-scrapper/blob/main/tests/data/questions.csv",
+  "catalogSHA256": "abe3ad4e25a61c0883e6d9ecd049b788e070bb17f119cc684654ebb2af2c007a",
+  "catalogRows": 3173,
+  "uniqueTitlesMatched": 422,
+  "unresolved": [
+    "0/1 Knapsack",
+    "Max Sum of a Subarray with length K",
+    "Minimum Number of Flips to Make Binary String Alternating II",
+    "Number of Sub-arrays of Size K"
+  ],
+  "liveReachability": "Not certified: official catalog request returned HTTP 403. No bulk retry against blocked host."
+}

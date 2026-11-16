@@ -1,0 +1,2112 @@
+{
+  "Two Sum": {
+    "id": "1",
+    "canonicalTitle": "Two Sum",
+    "slug": "two-sum"
+  },
+  "Best Time to Buy and Sell Stock": {
+    "id": "121",
+    "canonicalTitle": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock"
+  },
+  "Contains Duplicate": {
+    "id": "217",
+    "canonicalTitle": "Contains Duplicate",
+    "slug": "contains-duplicate"
+  },
+  "Remove Duplicates from Sorted Array": {
+    "id": "26",
+    "canonicalTitle": "Remove Duplicates from Sorted Array",
+    "slug": "remove-duplicates-from-sorted-array"
+  },
+  "Move Zeroes": {
+    "id": "283",
+    "canonicalTitle": "Move Zeroes",
+    "slug": "move-zeroes"
+  },
+  "Single Number": {
+    "id": "136",
+    "canonicalTitle": "Single Number",
+    "slug": "single-number"
+  },
+  "Majority Element": {
+    "id": "169",
+    "canonicalTitle": "Majority Element",
+    "slug": "majority-element"
+  },
+  "Merge Sorted Array": {
+    "id": "88",
+    "canonicalTitle": "Merge Sorted Array",
+    "slug": "merge-sorted-array"
+  },
+  "Product of Array Except Self": {
+    "id": "238",
+    "canonicalTitle": "Product of Array Except Self",
+    "slug": "product-of-array-except-self"
+  },
+  "Maximum Subarray (Kadane)": {
+    "id": "53",
+    "canonicalTitle": "Maximum Subarray",
+    "slug": "maximum-subarray"
+  },
+  "Maximum Product Subarray": {
+    "id": "152",
+    "canonicalTitle": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray"
+  },
+  "Find Minimum in Rotated Sorted Array": {
+    "id": "153",
+    "canonicalTitle": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array"
+  },
+  "Search in Rotated Sorted Array": {
+    "id": "33",
+    "canonicalTitle": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array"
+  },
+  "3Sum": {
+    "id": "15",
+    "canonicalTitle": "3Sum",
+    "slug": "3sum"
+  },
+  "Container With Most Water": {
+    "id": "11",
+    "canonicalTitle": "Container With Most Water",
+    "slug": "container-with-most-water"
+  },
+  "Sort Colors": {
+    "id": "75",
+    "canonicalTitle": "Sort Colors",
+    "slug": "sort-colors"
+  },
+  "Subarray Sum Equals K": {
+    "id": "560",
+    "canonicalTitle": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k"
+  },
+  "Longest Consecutive Sequence": {
+    "id": "128",
+    "canonicalTitle": "Longest Consecutive Sequence",
+    "slug": "longest-consecutive-sequence"
+  },
+  "Top K Frequent Elements": {
+    "id": "347",
+    "canonicalTitle": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements"
+  },
+  "Koko Eating Bananas": {
+    "id": "875",
+    "canonicalTitle": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas"
+  },
+  "Rotate Array": {
+    "id": "189",
+    "canonicalTitle": "Rotate Array",
+    "slug": "rotate-array"
+  },
+  "Next Permutation": {
+    "id": "31",
+    "canonicalTitle": "Next Permutation",
+    "slug": "next-permutation"
+  },
+  "Find All Duplicates in an Array": {
+    "id": "442",
+    "canonicalTitle": "Find All Duplicates in an Array",
+    "slug": "find-all-duplicates-in-an-array"
+  },
+  "Trapping Rain Water": {
+    "id": "42",
+    "canonicalTitle": "Trapping Rain Water",
+    "slug": "trapping-rain-water"
+  },
+  "First Missing Positive": {
+    "id": "41",
+    "canonicalTitle": "First Missing Positive",
+    "slug": "first-missing-positive"
+  },
+  "Median of Two Sorted Arrays": {
+    "id": "4",
+    "canonicalTitle": "Median of Two Sorted Arrays",
+    "slug": "median-of-two-sorted-arrays"
+  },
+  "Sliding Window Maximum": {
+    "id": "239",
+    "canonicalTitle": "Sliding Window Maximum",
+    "slug": "sliding-window-maximum"
+  },
+  "Largest Rectangle in Histogram": {
+    "id": "84",
+    "canonicalTitle": "Largest Rectangle in Histogram",
+    "slug": "largest-rectangle-in-histogram"
+  },
+  "Count Subarrays With Fixed Bounds": {
+    "id": "2444",
+    "canonicalTitle": "Count Subarrays With Fixed Bounds",
+    "slug": "count-subarrays-with-fixed-bounds"
+  },
+  "Maximum Gap": {
+    "id": "164",
+    "canonicalTitle": "Maximum Gap",
+    "slug": "maximum-gap"
+  },
+  "Valid Anagram": {
+    "id": "242",
+    "canonicalTitle": "Valid Anagram",
+    "slug": "valid-anagram"
+  },
+  "Valid Palindrome": {
+    "id": "125",
+    "canonicalTitle": "Valid Palindrome",
+    "slug": "valid-palindrome"
+  },
+  "Valid Parentheses": {
+    "id": "20",
+    "canonicalTitle": "Valid Parentheses",
+    "slug": "valid-parentheses"
+  },
+  "Longest Common Prefix": {
+    "id": "14",
+    "canonicalTitle": "Longest Common Prefix",
+    "slug": "longest-common-prefix"
+  },
+  "Reverse String": {
+    "id": "344",
+    "canonicalTitle": "Reverse String",
+    "slug": "reverse-string"
+  },
+  "Reverse Words in a String": {
+    "id": "151",
+    "canonicalTitle": "Reverse Words in a String",
+    "slug": "reverse-words-in-a-string"
+  },
+  "Implement strStr()": {
+    "id": "28",
+    "canonicalTitle": "Find the Index of the First Occurrence in a String",
+    "slug": "find-the-index-of-the-first-occurrence-in-a-string"
+  },
+  "Count and Say": {
+    "id": "38",
+    "canonicalTitle": "Count and Say",
+    "slug": "count-and-say"
+  },
+  "Longest Substring Without Repeating Characters": {
+    "id": "3",
+    "canonicalTitle": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters"
+  },
+  "Group Anagrams": {
+    "id": "49",
+    "canonicalTitle": "Group Anagrams",
+    "slug": "group-anagrams"
+  },
+  "Longest Palindromic Substring": {
+    "id": "5",
+    "canonicalTitle": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring"
+  },
+  "Longest Repeating Character Replacement": {
+    "id": "424",
+    "canonicalTitle": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement"
+  },
+  "Palindromic Substrings": {
+    "id": "647",
+    "canonicalTitle": "Palindromic Substrings",
+    "slug": "palindromic-substrings"
+  },
+  "Encode & Decode Strings": {
+    "id": "271",
+    "canonicalTitle": "Encode and Decode Strings",
+    "slug": "encode-and-decode-strings"
+  },
+  "String to Integer (atoi)": {
+    "id": "8",
+    "canonicalTitle": "String to Integer (atoi)",
+    "slug": "string-to-integer-atoi"
+  },
+  "Zigzag Conversion": {
+    "id": "6",
+    "canonicalTitle": "Zigzag Conversion",
+    "slug": "zigzag-conversion"
+  },
+  "Letter Combinations of a Phone Number": {
+    "id": "17",
+    "canonicalTitle": "Letter Combinations of a Phone Number",
+    "slug": "letter-combinations-of-a-phone-number"
+  },
+  "Generate Parentheses": {
+    "id": "22",
+    "canonicalTitle": "Generate Parentheses",
+    "slug": "generate-parentheses"
+  },
+  "Find and Replace Pattern": {
+    "id": "890",
+    "canonicalTitle": "Find and Replace Pattern",
+    "slug": "find-and-replace-pattern"
+  },
+  "Permutation in String": {
+    "id": "567",
+    "canonicalTitle": "Permutation in String",
+    "slug": "permutation-in-string"
+  },
+  "Multiply Strings": {
+    "id": "43",
+    "canonicalTitle": "Multiply Strings",
+    "slug": "multiply-strings"
+  },
+  "Basic Calculator II": {
+    "id": "227",
+    "canonicalTitle": "Basic Calculator II",
+    "slug": "basic-calculator-ii"
+  },
+  "Longest Happy String": {
+    "id": "1405",
+    "canonicalTitle": "Longest Happy String",
+    "slug": "longest-happy-string"
+  },
+  "Minimum Window Substring": {
+    "id": "76",
+    "canonicalTitle": "Minimum Window Substring",
+    "slug": "minimum-window-substring"
+  },
+  "Text Justification": {
+    "id": "68",
+    "canonicalTitle": "Text Justification",
+    "slug": "text-justification"
+  },
+  "Edit Distance": {
+    "id": "72",
+    "canonicalTitle": "Edit Distance",
+    "slug": "edit-distance"
+  },
+  "Regular Expression Matching": {
+    "id": "10",
+    "canonicalTitle": "Regular Expression Matching",
+    "slug": "regular-expression-matching"
+  },
+  "Word Ladder II": {
+    "id": "126",
+    "canonicalTitle": "Word Ladder II",
+    "slug": "word-ladder-ii"
+  },
+  "Scramble String": {
+    "id": "87",
+    "canonicalTitle": "Scramble String",
+    "slug": "scramble-string"
+  },
+  "Shortest Palindrome": {
+    "id": "214",
+    "canonicalTitle": "Shortest Palindrome",
+    "slug": "shortest-palindrome"
+  },
+  "Invert Binary Tree": {
+    "id": "226",
+    "canonicalTitle": "Invert Binary Tree",
+    "slug": "invert-binary-tree"
+  },
+  "Maximum Depth of Binary Tree": {
+    "id": "104",
+    "canonicalTitle": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree"
+  },
+  "Diameter of Binary Tree": {
+    "id": "543",
+    "canonicalTitle": "Diameter of Binary Tree",
+    "slug": "diameter-of-binary-tree"
+  },
+  "Balanced Binary Tree": {
+    "id": "110",
+    "canonicalTitle": "Balanced Binary Tree",
+    "slug": "balanced-binary-tree"
+  },
+  "Same Tree": {
+    "id": "100",
+    "canonicalTitle": "Same Tree",
+    "slug": "same-tree"
+  },
+  "Symmetric Tree": {
+    "id": "101",
+    "canonicalTitle": "Symmetric Tree",
+    "slug": "symmetric-tree"
+  },
+  "Path Sum": {
+    "id": "112",
+    "canonicalTitle": "Path Sum",
+    "slug": "path-sum"
+  },
+  "Convert Sorted Array to Binary Search Tree": {
+    "id": "108",
+    "canonicalTitle": "Convert Sorted Array to Binary Search Tree",
+    "slug": "convert-sorted-array-to-binary-search-tree"
+  },
+  "Lowest Common Ancestor of BST": {
+    "id": "235",
+    "canonicalTitle": "Lowest Common Ancestor of a Binary Search Tree",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree"
+  },
+  "Binary Tree Level Order Traversal": {
+    "id": "102",
+    "canonicalTitle": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal"
+  },
+  "Construct Tree from Preorder + Inorder": {
+    "id": "105",
+    "canonicalTitle": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  "Validate Binary Search Tree": {
+    "id": "98",
+    "canonicalTitle": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree"
+  },
+  "Kth Smallest Element in BST": {
+    "id": "230",
+    "canonicalTitle": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst"
+  },
+  "Construct Binary Tree from Inorder + Postorder": {
+    "id": "106",
+    "canonicalTitle": "Construct Binary Tree from Inorder and Postorder Traversal",
+    "slug": "construct-binary-tree-from-inorder-and-postorder-traversal"
+  },
+  "Populating Next Right Pointers": {
+    "id": "116",
+    "canonicalTitle": "Populating Next Right Pointers in Each Node",
+    "slug": "populating-next-right-pointers-in-each-node"
+  },
+  "Path Sum II": {
+    "id": "113",
+    "canonicalTitle": "Path Sum II",
+    "slug": "path-sum-ii"
+  },
+  "Flatten Binary Tree to Linked List": {
+    "id": "114",
+    "canonicalTitle": "Flatten Binary Tree to Linked List",
+    "slug": "flatten-binary-tree-to-linked-list"
+  },
+  "Count Good Nodes in Binary Tree": {
+    "id": "1448",
+    "canonicalTitle": "Count Good Nodes in Binary Tree",
+    "slug": "count-good-nodes-in-binary-tree"
+  },
+  "Sum Root to Leaf Numbers": {
+    "id": "129",
+    "canonicalTitle": "Sum Root to Leaf Numbers",
+    "slug": "sum-root-to-leaf-numbers"
+  },
+  "All Nodes Distance K in Binary Tree": {
+    "id": "863",
+    "canonicalTitle": "All Nodes Distance K in Binary Tree",
+    "slug": "all-nodes-distance-k-in-binary-tree"
+  },
+  "Binary Search Tree Iterator": {
+    "id": "173",
+    "canonicalTitle": "Binary Search Tree Iterator",
+    "slug": "binary-search-tree-iterator"
+  },
+  "House Robber III": {
+    "id": "337",
+    "canonicalTitle": "House Robber III",
+    "slug": "house-robber-iii"
+  },
+  "Serialize & Deserialize Binary Tree": {
+    "id": "297",
+    "canonicalTitle": "Serialize and Deserialize Binary Tree",
+    "slug": "serialize-and-deserialize-binary-tree"
+  },
+  "Binary Tree Maximum Path Sum": {
+    "id": "124",
+    "canonicalTitle": "Binary Tree Maximum Path Sum",
+    "slug": "binary-tree-maximum-path-sum"
+  },
+  "Recover Binary Search Tree": {
+    "id": "99",
+    "canonicalTitle": "Recover Binary Search Tree",
+    "slug": "recover-binary-search-tree"
+  },
+  "Binary Tree Cameras": {
+    "id": "968",
+    "canonicalTitle": "Binary Tree Cameras",
+    "slug": "binary-tree-cameras"
+  },
+  "Vertical Order Traversal of a Binary Tree": {
+    "id": "987",
+    "canonicalTitle": "Vertical Order Traversal of a Binary Tree",
+    "slug": "vertical-order-traversal-of-a-binary-tree"
+  },
+  "Number of Ways to Reorder Array to Get Same BST": {
+    "id": "1569",
+    "canonicalTitle": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst"
+  },
+  "Closest Binary Search Tree Value II": {
+    "id": "272",
+    "canonicalTitle": "Closest Binary Search Tree Value II",
+    "slug": "closest-binary-search-tree-value-ii"
+  },
+  "Sum of Distances in Tree": {
+    "id": "834",
+    "canonicalTitle": "Sum of Distances in Tree",
+    "slug": "sum-of-distances-in-tree"
+  },
+  "Find Center of Star Graph": {
+    "id": "1791",
+    "canonicalTitle": "Find Center of Star Graph",
+    "slug": "find-center-of-star-graph"
+  },
+  "Find if Path Exists in Graph": {
+    "id": "1971",
+    "canonicalTitle": "Find if Path Exists in Graph",
+    "slug": "find-if-path-exists-in-graph"
+  },
+  "Flood Fill": {
+    "id": "733",
+    "canonicalTitle": "Flood Fill",
+    "slug": "flood-fill"
+  },
+  "Find the Town Judge": {
+    "id": "997",
+    "canonicalTitle": "Find the Town Judge",
+    "slug": "find-the-town-judge"
+  },
+  "Employee Importance": {
+    "id": "690",
+    "canonicalTitle": "Employee Importance",
+    "slug": "employee-importance"
+  },
+  "Number of Islands": {
+    "id": "200",
+    "canonicalTitle": "Number of Islands",
+    "slug": "number-of-islands"
+  },
+  "Clone Graph": {
+    "id": "133",
+    "canonicalTitle": "Clone Graph",
+    "slug": "clone-graph"
+  },
+  "Course Schedule (Topological Sort)": {
+    "id": "207",
+    "canonicalTitle": "Course Schedule",
+    "slug": "course-schedule"
+  },
+  "Rotting Oranges (BFS)": {
+    "id": "994",
+    "canonicalTitle": "Rotting Oranges",
+    "slug": "rotting-oranges"
+  },
+  "Pacific Atlantic Water Flow": {
+    "id": "417",
+    "canonicalTitle": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow"
+  },
+  "Network Delay Time (Dijkstra)": {
+    "id": "743",
+    "canonicalTitle": "Network Delay Time",
+    "slug": "network-delay-time"
+  },
+  "Graph Valid Tree": {
+    "id": "261",
+    "canonicalTitle": "Graph Valid Tree",
+    "slug": "graph-valid-tree"
+  },
+  "Walls and Gates": {
+    "id": "286",
+    "canonicalTitle": "Walls and Gates",
+    "slug": "walls-and-gates"
+  },
+  "Surrounded Regions": {
+    "id": "130",
+    "canonicalTitle": "Surrounded Regions",
+    "slug": "surrounded-regions"
+  },
+  "Evaluate Division": {
+    "id": "399",
+    "canonicalTitle": "Evaluate Division",
+    "slug": "evaluate-division"
+  },
+  "Redundant Connection": {
+    "id": "684",
+    "canonicalTitle": "Redundant Connection",
+    "slug": "redundant-connection"
+  },
+  "Cheapest Flights Within K Stops": {
+    "id": "787",
+    "canonicalTitle": "Cheapest Flights Within K Stops",
+    "slug": "cheapest-flights-within-k-stops"
+  },
+  "Course Schedule II": {
+    "id": "210",
+    "canonicalTitle": "Course Schedule II",
+    "slug": "course-schedule-ii"
+  },
+  "Accounts Merge": {
+    "id": "721",
+    "canonicalTitle": "Accounts Merge",
+    "slug": "accounts-merge"
+  },
+  "All Paths From Source to Target": {
+    "id": "797",
+    "canonicalTitle": "All Paths From Source to Target",
+    "slug": "all-paths-from-source-to-target"
+  },
+  "Keys and Rooms": {
+    "id": "841",
+    "canonicalTitle": "Keys and Rooms",
+    "slug": "keys-and-rooms"
+  },
+  "Word Ladder": {
+    "id": "127",
+    "canonicalTitle": "Word Ladder",
+    "slug": "word-ladder"
+  },
+  "Alien Dictionary": {
+    "id": "269",
+    "canonicalTitle": "Alien Dictionary",
+    "slug": "alien-dictionary"
+  },
+  "Reconstruct Itinerary": {
+    "id": "332",
+    "canonicalTitle": "Reconstruct Itinerary",
+    "slug": "reconstruct-itinerary"
+  },
+  "Critical Connections in a Network": {
+    "id": "1192",
+    "canonicalTitle": "Critical Connections in a Network",
+    "slug": "critical-connections-in-a-network"
+  },
+  "Min Cost to Connect All Points": {
+    "id": "1584",
+    "canonicalTitle": "Min Cost to Connect All Points",
+    "slug": "min-cost-to-connect-all-points"
+  },
+  "Swim in Rising Water": {
+    "id": "778",
+    "canonicalTitle": "Swim in Rising Water",
+    "slug": "swim-in-rising-water"
+  },
+  "Word Search II": {
+    "id": "212",
+    "canonicalTitle": "Word Search II",
+    "slug": "word-search-ii"
+  },
+  "Strange Printer II": {
+    "id": "1591",
+    "canonicalTitle": "Strange Printer II",
+    "slug": "strange-printer-ii"
+  },
+  "Parallel Courses III": {
+    "id": "2050",
+    "canonicalTitle": "Parallel Courses III",
+    "slug": "parallel-courses-iii"
+  },
+  "Climbing Stairs": {
+    "id": "70",
+    "canonicalTitle": "Climbing Stairs",
+    "slug": "climbing-stairs"
+  },
+  "Fibonacci Number": {
+    "id": "509",
+    "canonicalTitle": "Fibonacci Number",
+    "slug": "fibonacci-number"
+  },
+  "N-th Tribonacci Number": {
+    "id": "1137",
+    "canonicalTitle": "N-th Tribonacci Number",
+    "slug": "n-th-tribonacci-number"
+  },
+  "Min Cost Climbing Stairs": {
+    "id": "746",
+    "canonicalTitle": "Min Cost Climbing Stairs",
+    "slug": "min-cost-climbing-stairs"
+  },
+  "House Robber": {
+    "id": "198",
+    "canonicalTitle": "House Robber",
+    "slug": "house-robber"
+  },
+  "House Robber II": {
+    "id": "213",
+    "canonicalTitle": "House Robber II",
+    "slug": "house-robber-ii"
+  },
+  "Coin Change": {
+    "id": "322",
+    "canonicalTitle": "Coin Change",
+    "slug": "coin-change"
+  },
+  "Longest Increasing Subsequence": {
+    "id": "300",
+    "canonicalTitle": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence"
+  },
+  "Longest Common Subsequence": {
+    "id": "1143",
+    "canonicalTitle": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence"
+  },
+  "Decode Ways": {
+    "id": "91",
+    "canonicalTitle": "Decode Ways",
+    "slug": "decode-ways"
+  },
+  "Unique Paths": {
+    "id": "62",
+    "canonicalTitle": "Unique Paths",
+    "slug": "unique-paths"
+  },
+  "Unique Paths II": {
+    "id": "63",
+    "canonicalTitle": "Unique Paths II",
+    "slug": "unique-paths-ii"
+  },
+  "Partition Equal Subset Sum": {
+    "id": "416",
+    "canonicalTitle": "Partition Equal Subset Sum",
+    "slug": "partition-equal-subset-sum"
+  },
+  "Maximum Subarray": {
+    "id": "53",
+    "canonicalTitle": "Maximum Subarray",
+    "slug": "maximum-subarray"
+  },
+  "Word Break": {
+    "id": "139",
+    "canonicalTitle": "Word Break",
+    "slug": "word-break"
+  },
+  "Paint Fence": {
+    "id": "276",
+    "canonicalTitle": "Paint Fence",
+    "slug": "paint-fence"
+  },
+  "Longest Palindromic Subsequence": {
+    "id": "516",
+    "canonicalTitle": "Longest Palindromic Subsequence",
+    "slug": "longest-palindromic-subsequence"
+  },
+  "Best Time to Buy and Sell Stock with Cooldown": {
+    "id": "309",
+    "canonicalTitle": "Best Time to Buy and Sell Stock with Cooldown",
+    "slug": "best-time-to-buy-and-sell-stock-with-cooldown"
+  },
+  "Target Sum": {
+    "id": "494",
+    "canonicalTitle": "Target Sum",
+    "slug": "target-sum"
+  },
+  "Burst Balloons": {
+    "id": "312",
+    "canonicalTitle": "Burst Balloons",
+    "slug": "burst-balloons"
+  },
+  "Wildcard Matching": {
+    "id": "44",
+    "canonicalTitle": "Wildcard Matching",
+    "slug": "wildcard-matching"
+  },
+  "Super Egg Drop": {
+    "id": "887",
+    "canonicalTitle": "Super Egg Drop",
+    "slug": "super-egg-drop"
+  },
+  "Cherry Pickup": {
+    "id": "741",
+    "canonicalTitle": "Cherry Pickup",
+    "slug": "cherry-pickup"
+  },
+  "Palindrome Partitioning II": {
+    "id": "132",
+    "canonicalTitle": "Palindrome Partitioning II",
+    "slug": "palindrome-partitioning-ii"
+  },
+  "Interleaving String": {
+    "id": "97",
+    "canonicalTitle": "Interleaving String",
+    "slug": "interleaving-string"
+  },
+  "Minimum Window Subsequence": {
+    "id": "727",
+    "canonicalTitle": "Minimum Window Subsequence",
+    "slug": "minimum-window-subsequence"
+  },
+  "Reverse Linked List": {
+    "id": "206",
+    "canonicalTitle": "Reverse Linked List",
+    "slug": "reverse-linked-list"
+  },
+  "Middle of the Linked List": {
+    "id": "876",
+    "canonicalTitle": "Middle of the Linked List",
+    "slug": "middle-of-the-linked-list"
+  },
+  "Merge Two Sorted Lists": {
+    "id": "21",
+    "canonicalTitle": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists"
+  },
+  "Linked List Cycle": {
+    "id": "141",
+    "canonicalTitle": "Linked List Cycle",
+    "slug": "linked-list-cycle"
+  },
+  "Remove Duplicates from Sorted List": {
+    "id": "83",
+    "canonicalTitle": "Remove Duplicates from Sorted List",
+    "slug": "remove-duplicates-from-sorted-list"
+  },
+  "Delete Node in a Linked List": {
+    "id": "237",
+    "canonicalTitle": "Delete Node in a Linked List",
+    "slug": "delete-node-in-a-linked-list"
+  },
+  "Palindrome Linked List": {
+    "id": "234",
+    "canonicalTitle": "Palindrome Linked List",
+    "slug": "palindrome-linked-list"
+  },
+  "Intersection of Two Linked Lists": {
+    "id": "160",
+    "canonicalTitle": "Intersection of Two Linked Lists",
+    "slug": "intersection-of-two-linked-lists"
+  },
+  "Add Two Numbers": {
+    "id": "2",
+    "canonicalTitle": "Add Two Numbers",
+    "slug": "add-two-numbers"
+  },
+  "Remove Nth Node From End of List": {
+    "id": "19",
+    "canonicalTitle": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list"
+  },
+  "Swap Nodes in Pairs": {
+    "id": "24",
+    "canonicalTitle": "Swap Nodes in Pairs",
+    "slug": "swap-nodes-in-pairs"
+  },
+  "Odd Even Linked List": {
+    "id": "328",
+    "canonicalTitle": "Odd Even Linked List",
+    "slug": "odd-even-linked-list"
+  },
+  "Reverse Linked List II": {
+    "id": "92",
+    "canonicalTitle": "Reverse Linked List II",
+    "slug": "reverse-linked-list-ii"
+  },
+  "Reorder List": {
+    "id": "143",
+    "canonicalTitle": "Reorder List",
+    "slug": "reorder-list"
+  },
+  "Rotate List": {
+    "id": "61",
+    "canonicalTitle": "Rotate List",
+    "slug": "rotate-list"
+  },
+  "Copy List with Random Pointer": {
+    "id": "138",
+    "canonicalTitle": "Copy List with Random Pointer",
+    "slug": "copy-list-with-random-pointer"
+  },
+  "Linked List Cycle II": {
+    "id": "142",
+    "canonicalTitle": "Linked List Cycle II",
+    "slug": "linked-list-cycle-ii"
+  },
+  "Design Linked List": {
+    "id": "707",
+    "canonicalTitle": "Design Linked List",
+    "slug": "design-linked-list"
+  },
+  "Partition List": {
+    "id": "86",
+    "canonicalTitle": "Partition List",
+    "slug": "partition-list"
+  },
+  "Flatten a Multilevel Doubly Linked List": {
+    "id": "430",
+    "canonicalTitle": "Flatten a Multilevel Doubly Linked List",
+    "slug": "flatten-a-multilevel-doubly-linked-list"
+  },
+  "Find the Duplicate Number": {
+    "id": "287",
+    "canonicalTitle": "Find the Duplicate Number",
+    "slug": "find-the-duplicate-number"
+  },
+  "Sort List": {
+    "id": "148",
+    "canonicalTitle": "Sort List",
+    "slug": "sort-list"
+  },
+  "Insert into a Sorted Circular Linked List": {
+    "id": "708",
+    "canonicalTitle": "Insert into a Sorted Circular Linked List",
+    "slug": "insert-into-a-sorted-circular-linked-list"
+  },
+  "Merge k Sorted Lists": {
+    "id": "23",
+    "canonicalTitle": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists"
+  },
+  "Reverse Nodes in k-Group": {
+    "id": "25",
+    "canonicalTitle": "Reverse Nodes in k-Group",
+    "slug": "reverse-nodes-in-k-group"
+  },
+  "LRU Cache": {
+    "id": "146",
+    "canonicalTitle": "LRU Cache",
+    "slug": "lru-cache"
+  },
+  "LFU Cache": {
+    "id": "460",
+    "canonicalTitle": "LFU Cache",
+    "slug": "lfu-cache"
+  },
+  "All O`one Data Structure": {
+    "id": "432",
+    "canonicalTitle": "All O`one Data Structure",
+    "slug": "all-oone-data-structure"
+  },
+  "Design Skiplist": {
+    "id": "1206",
+    "canonicalTitle": "Design Skiplist",
+    "slug": "design-skiplist"
+  },
+  "Design Phone Directory": {
+    "id": "379",
+    "canonicalTitle": "Design Phone Directory",
+    "slug": "design-phone-directory"
+  },
+  "Min Stack": {
+    "id": "155",
+    "canonicalTitle": "Min Stack",
+    "slug": "min-stack"
+  },
+  "Backspace String Compare": {
+    "id": "844",
+    "canonicalTitle": "Backspace String Compare",
+    "slug": "backspace-string-compare"
+  },
+  "Baseball Game": {
+    "id": "682",
+    "canonicalTitle": "Baseball Game",
+    "slug": "baseball-game"
+  },
+  "Next Greater Element I": {
+    "id": "496",
+    "canonicalTitle": "Next Greater Element I",
+    "slug": "next-greater-element-i"
+  },
+  "Final Prices With a Special Discount": {
+    "id": "1475",
+    "canonicalTitle": "Final Prices With a Special Discount in a Shop",
+    "slug": "final-prices-with-a-special-discount-in-a-shop"
+  },
+  "Remove All Adjacent Duplicates In String": {
+    "id": "1047",
+    "canonicalTitle": "Remove All Adjacent Duplicates In String",
+    "slug": "remove-all-adjacent-duplicates-in-string"
+  },
+  "Make The String Great": {
+    "id": "1544",
+    "canonicalTitle": "Make The String Great",
+    "slug": "make-the-string-great"
+  },
+  "Daily Temperatures": {
+    "id": "739",
+    "canonicalTitle": "Daily Temperatures",
+    "slug": "daily-temperatures"
+  },
+  "Evaluate Reverse Polish Notation": {
+    "id": "150",
+    "canonicalTitle": "Evaluate Reverse Polish Notation",
+    "slug": "evaluate-reverse-polish-notation"
+  },
+  "Asteroid Collision": {
+    "id": "735",
+    "canonicalTitle": "Asteroid Collision",
+    "slug": "asteroid-collision"
+  },
+  "Next Greater Element II": {
+    "id": "503",
+    "canonicalTitle": "Next Greater Element II",
+    "slug": "next-greater-element-ii"
+  },
+  "Online Stock Span": {
+    "id": "901",
+    "canonicalTitle": "Online Stock Span",
+    "slug": "online-stock-span"
+  },
+  "Decode String": {
+    "id": "394",
+    "canonicalTitle": "Decode String",
+    "slug": "decode-string"
+  },
+  "Simplify Path": {
+    "id": "71",
+    "canonicalTitle": "Simplify Path",
+    "slug": "simplify-path"
+  },
+  "Remove K Digits": {
+    "id": "402",
+    "canonicalTitle": "Remove K Digits",
+    "slug": "remove-k-digits"
+  },
+  "Car Fleet": {
+    "id": "853",
+    "canonicalTitle": "Car Fleet",
+    "slug": "car-fleet"
+  },
+  "Sum of Subarray Minimums": {
+    "id": "907",
+    "canonicalTitle": "Sum of Subarray Minimums",
+    "slug": "sum-of-subarray-minimums"
+  },
+  "Remove All Adjacent Duplicates in String II": {
+    "id": "1209",
+    "canonicalTitle": "Remove All Adjacent Duplicates in String II",
+    "slug": "remove-all-adjacent-duplicates-in-string-ii"
+  },
+  "Minimum Add to Make Parentheses Valid": {
+    "id": "921",
+    "canonicalTitle": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid"
+  },
+  "Score of Parentheses": {
+    "id": "856",
+    "canonicalTitle": "Score of Parentheses",
+    "slug": "score-of-parentheses"
+  },
+  "Validate Stack Sequences": {
+    "id": "946",
+    "canonicalTitle": "Validate Stack Sequences",
+    "slug": "validate-stack-sequences"
+  },
+  "Design a Stack With Increment Operation": {
+    "id": "1381",
+    "canonicalTitle": "Design a Stack With Increment Operation",
+    "slug": "design-a-stack-with-increment-operation"
+  },
+  "Maximal Rectangle": {
+    "id": "85",
+    "canonicalTitle": "Maximal Rectangle",
+    "slug": "maximal-rectangle"
+  },
+  "Basic Calculator": {
+    "id": "224",
+    "canonicalTitle": "Basic Calculator",
+    "slug": "basic-calculator"
+  },
+  "Max Stack": {
+    "id": "716",
+    "canonicalTitle": "Max Stack",
+    "slug": "max-stack"
+  },
+  "Basic Calculator III": {
+    "id": "772",
+    "canonicalTitle": "Basic Calculator III",
+    "slug": "basic-calculator-iii"
+  },
+  "Number of Visible People in a Queue": {
+    "id": "1944",
+    "canonicalTitle": "Number of Visible People in a Queue",
+    "slug": "number-of-visible-people-in-a-queue"
+  },
+  "Longest Valid Parentheses": {
+    "id": "32",
+    "canonicalTitle": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses"
+  },
+  "Implement Queue using Stacks": {
+    "id": "232",
+    "canonicalTitle": "Implement Queue using Stacks",
+    "slug": "implement-queue-using-stacks"
+  },
+  "Number of Recent Calls": {
+    "id": "933",
+    "canonicalTitle": "Number of Recent Calls",
+    "slug": "number-of-recent-calls"
+  },
+  "Time Needed to Buy Tickets": {
+    "id": "2073",
+    "canonicalTitle": "Time Needed to Buy Tickets",
+    "slug": "time-needed-to-buy-tickets"
+  },
+  "Moving Average from Data Stream": {
+    "id": "346",
+    "canonicalTitle": "Moving Average from Data Stream",
+    "slug": "moving-average-from-data-stream"
+  },
+  "Dota2 Senate": {
+    "id": "649",
+    "canonicalTitle": "Dota2 Senate",
+    "slug": "dota2-senate"
+  },
+  "Reveal Cards In Increasing Order": {
+    "id": "950",
+    "canonicalTitle": "Reveal Cards In Increasing Order",
+    "slug": "reveal-cards-in-increasing-order"
+  },
+  "Number of Students Unable to Eat Lunch": {
+    "id": "1700",
+    "canonicalTitle": "Number of Students Unable to Eat Lunch",
+    "slug": "number-of-students-unable-to-eat-lunch"
+  },
+  "Find Players With Zero or One Losses": {
+    "id": "2225",
+    "canonicalTitle": "Find Players With Zero or One Losses",
+    "slug": "find-players-with-zero-or-one-losses"
+  },
+  "Design Circular Queue": {
+    "id": "622",
+    "canonicalTitle": "Design Circular Queue",
+    "slug": "design-circular-queue"
+  },
+  "Design Circular Deque": {
+    "id": "641",
+    "canonicalTitle": "Design Circular Deque",
+    "slug": "design-circular-deque"
+  },
+  "Design Front Middle Back Queue": {
+    "id": "1670",
+    "canonicalTitle": "Design Front Middle Back Queue",
+    "slug": "design-front-middle-back-queue"
+  },
+  "Shortest Subarray with Sum at Least K": {
+    "id": "862",
+    "canonicalTitle": "Shortest Subarray with Sum at Least K",
+    "slug": "shortest-subarray-with-sum-at-least-k"
+  },
+  "Constrained Subsequence Sum": {
+    "id": "1425",
+    "canonicalTitle": "Constrained Subsequence Sum",
+    "slug": "constrained-subsequence-sum"
+  },
+  "Task Scheduler": {
+    "id": "621",
+    "canonicalTitle": "Task Scheduler",
+    "slug": "task-scheduler"
+  },
+  "Process Tasks Using Servers": {
+    "id": "1882",
+    "canonicalTitle": "Process Tasks Using Servers",
+    "slug": "process-tasks-using-servers"
+  },
+  "Jump Game VI": {
+    "id": "1696",
+    "canonicalTitle": "Jump Game VI",
+    "slug": "jump-game-vi"
+  },
+  "Continuous Subarrays": {
+    "id": "2762",
+    "canonicalTitle": "Continuous Subarrays",
+    "slug": "continuous-subarrays"
+  },
+  "Max Value of Equation": {
+    "id": "1499",
+    "canonicalTitle": "Max Value of Equation",
+    "slug": "max-value-of-equation"
+  },
+  "Longest Continuous Subarray With Absolute Diff <= Limit": {
+    "id": "1438",
+    "canonicalTitle": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+    "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit"
+  },
+  "Find the Winner of the Circular Game": {
+    "id": "1823",
+    "canonicalTitle": "Find the Winner of the Circular Game",
+    "slug": "find-the-winner-of-the-circular-game"
+  },
+  "Number of People Aware of Secret": {
+    "id": "2327",
+    "canonicalTitle": "Number of People Aware of a Secret",
+    "slug": "number-of-people-aware-of-a-secret"
+  },
+  "Maximum Number of Tasks You Can Assign": {
+    "id": "2071",
+    "canonicalTitle": "Maximum Number of Tasks You Can Assign",
+    "slug": "maximum-number-of-tasks-you-can-assign"
+  },
+  "Minimum Obstacle Removal to Reach Corner": {
+    "id": "2290",
+    "canonicalTitle": "Minimum Obstacle Removal to Reach Corner",
+    "slug": "minimum-obstacle-removal-to-reach-corner"
+  },
+  "Shortest Path in a Grid with Obstacles Elimination": {
+    "id": "1293",
+    "canonicalTitle": "Shortest Path in a Grid with Obstacles Elimination",
+    "slug": "shortest-path-in-a-grid-with-obstacles-elimination"
+  },
+  "Minimum Cost to Make at Least One Valid Path in a Grid": {
+    "id": "1368",
+    "canonicalTitle": "Minimum Cost to Make at Least One Valid Path in a Grid",
+    "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid"
+  },
+  "Find the Shortest Superstring": {
+    "id": "943",
+    "canonicalTitle": "Find the Shortest Superstring",
+    "slug": "find-the-shortest-superstring"
+  },
+  "Sliding Window Median": {
+    "id": "480",
+    "canonicalTitle": "Sliding Window Median",
+    "slug": "sliding-window-median"
+  },
+  "Minimum Number of Increments on Subarrays to Form Target Array": {
+    "id": "1526",
+    "canonicalTitle": "Minimum Number of Increments on Subarrays to Form a Target Array",
+    "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array"
+  },
+  "Number of 1 Bits": {
+    "id": "191",
+    "canonicalTitle": "Number of 1 Bits",
+    "slug": "number-of-1-bits"
+  },
+  "Reverse Bits": {
+    "id": "190",
+    "canonicalTitle": "Reverse Bits",
+    "slug": "reverse-bits"
+  },
+  "Missing Number": {
+    "id": "268",
+    "canonicalTitle": "Missing Number",
+    "slug": "missing-number"
+  },
+  "Hamming Distance": {
+    "id": "461",
+    "canonicalTitle": "Hamming Distance",
+    "slug": "hamming-distance"
+  },
+  "Convert a Number to Hexadecimal": {
+    "id": "405",
+    "canonicalTitle": "Convert a Number to Hexadecimal",
+    "slug": "convert-a-number-to-hexadecimal"
+  },
+  "Binary Number with Alternating Bits": {
+    "id": "693",
+    "canonicalTitle": "Binary Number with Alternating Bits",
+    "slug": "binary-number-with-alternating-bits"
+  },
+  "Number Complement": {
+    "id": "476",
+    "canonicalTitle": "Number Complement",
+    "slug": "number-complement"
+  },
+  "Single Number II": {
+    "id": "137",
+    "canonicalTitle": "Single Number II",
+    "slug": "single-number-ii"
+  },
+  "Single Number III": {
+    "id": "260",
+    "canonicalTitle": "Single Number III",
+    "slug": "single-number-iii"
+  },
+  "Subsets": {
+    "id": "78",
+    "canonicalTitle": "Subsets",
+    "slug": "subsets"
+  },
+  "Gray Code": {
+    "id": "89",
+    "canonicalTitle": "Gray Code",
+    "slug": "gray-code"
+  },
+  "Power of Two": {
+    "id": "231",
+    "canonicalTitle": "Power of Two",
+    "slug": "power-of-two"
+  },
+  "Sum of Two Integers": {
+    "id": "371",
+    "canonicalTitle": "Sum of Two Integers",
+    "slug": "sum-of-two-integers"
+  },
+  "Counting Bits": {
+    "id": "338",
+    "canonicalTitle": "Counting Bits",
+    "slug": "counting-bits"
+  },
+  "Binary Watch": {
+    "id": "401",
+    "canonicalTitle": "Binary Watch",
+    "slug": "binary-watch"
+  },
+  "Maximum XOR of Two Numbers in an Array": {
+    "id": "421",
+    "canonicalTitle": "Maximum XOR of Two Numbers in an Array",
+    "slug": "maximum-xor-of-two-numbers-in-an-array"
+  },
+  "Total Hamming Distance": {
+    "id": "477",
+    "canonicalTitle": "Total Hamming Distance",
+    "slug": "total-hamming-distance"
+  },
+  "Find the Difference": {
+    "id": "389",
+    "canonicalTitle": "Find the Difference",
+    "slug": "find-the-difference"
+  },
+  "Repeated DNA Sequences": {
+    "id": "187",
+    "canonicalTitle": "Repeated DNA Sequences",
+    "slug": "repeated-dna-sequences"
+  },
+  "Bitwise AND of Numbers Range": {
+    "id": "201",
+    "canonicalTitle": "Bitwise AND of Numbers Range",
+    "slug": "bitwise-and-of-numbers-range"
+  },
+  "Maximum Product of Word Lengths": {
+    "id": "318",
+    "canonicalTitle": "Maximum Product of Word Lengths",
+    "slug": "maximum-product-of-word-lengths"
+  },
+  "Integer Replacement": {
+    "id": "397",
+    "canonicalTitle": "Integer Replacement",
+    "slug": "integer-replacement"
+  },
+  "Minimum XOR Sum of Two Arrays": {
+    "id": "1879",
+    "canonicalTitle": "Minimum XOR Sum of Two Arrays",
+    "slug": "minimum-xor-sum-of-two-arrays"
+  },
+  "Closest Subsequence Sum": {
+    "id": "1755",
+    "canonicalTitle": "Closest Subsequence Sum",
+    "slug": "closest-subsequence-sum"
+  },
+  "Count Pairs With XOR in a Range": {
+    "id": "1803",
+    "canonicalTitle": "Count Pairs With XOR in a Range",
+    "slug": "count-pairs-with-xor-in-a-range"
+  },
+  "Maximum XOR After Operations": {
+    "id": "2317",
+    "canonicalTitle": "Maximum XOR After Operations",
+    "slug": "maximum-xor-after-operations"
+  },
+  "Minimum One Bit Operations to Make Integers Zero": {
+    "id": "1611",
+    "canonicalTitle": "Minimum One Bit Operations to Make Integers Zero",
+    "slug": "minimum-one-bit-operations-to-make-integers-zero"
+  },
+  "XOR Queries of a Subarray": {
+    "id": "1310",
+    "canonicalTitle": "XOR Queries of a Subarray",
+    "slug": "xor-queries-of-a-subarray"
+  },
+  "Running Sum of 1d Array": {
+    "id": "1480",
+    "canonicalTitle": "Running Sum of 1d Array",
+    "slug": "running-sum-of-1d-array"
+  },
+  "Find Pivot Index": {
+    "id": "724",
+    "canonicalTitle": "Find Pivot Index",
+    "slug": "find-pivot-index"
+  },
+  "Left and Right Sum Differences": {
+    "id": "2574",
+    "canonicalTitle": "Left and Right Sum Differences",
+    "slug": "left-and-right-sum-differences"
+  },
+  "Find the Middle Index in Array": {
+    "id": "1991",
+    "canonicalTitle": "Find the Middle Index in Array",
+    "slug": "find-the-middle-index-in-array"
+  },
+  "Range Sum of BST": {
+    "id": "938",
+    "canonicalTitle": "Range Sum of BST",
+    "slug": "range-sum-of-bst"
+  },
+  "Minimum Value to Get Positive Step by Step Sum": {
+    "id": "1413",
+    "canonicalTitle": "Minimum Value to Get Positive Step by Step Sum",
+    "slug": "minimum-value-to-get-positive-step-by-step-sum"
+  },
+  "Find the Distance Value Between Two Arrays": {
+    "id": "1385",
+    "canonicalTitle": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays"
+  },
+  "Number of Students Doing Homework at a Given Time": {
+    "id": "1450",
+    "canonicalTitle": "Number of Students Doing Homework at a Given Time",
+    "slug": "number-of-students-doing-homework-at-a-given-time"
+  },
+  "Contiguous Array": {
+    "id": "525",
+    "canonicalTitle": "Contiguous Array",
+    "slug": "contiguous-array"
+  },
+  "Range Sum Query - Immutable": {
+    "id": "303",
+    "canonicalTitle": "Range Sum Query - Immutable",
+    "slug": "range-sum-query-immutable"
+  },
+  "Range Sum Query 2D - Immutable": {
+    "id": "304",
+    "canonicalTitle": "Range Sum Query 2D - Immutable",
+    "slug": "range-sum-query-2d-immutable"
+  },
+  "Maximum Size Subarray Sum Equals k": {
+    "id": "325",
+    "canonicalTitle": "Maximum Size Subarray Sum Equals k",
+    "slug": "maximum-size-subarray-sum-equals-k"
+  },
+  "Continuous Subarray Sum": {
+    "id": "523",
+    "canonicalTitle": "Continuous Subarray Sum",
+    "slug": "continuous-subarray-sum"
+  },
+  "Make Sum Divisible by P": {
+    "id": "1590",
+    "canonicalTitle": "Make Sum Divisible by P",
+    "slug": "make-sum-divisible-by-p"
+  },
+  "Product of the Last K Numbers": {
+    "id": "1352",
+    "canonicalTitle": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers"
+  },
+  "Maximum Subarray Sum with One Deletion": {
+    "id": "1186",
+    "canonicalTitle": "Maximum Subarray Sum with One Deletion",
+    "slug": "maximum-subarray-sum-with-one-deletion"
+  },
+  "Number of Subarrays with Bounded Maximum": {
+    "id": "795",
+    "canonicalTitle": "Number of Subarrays with Bounded Maximum",
+    "slug": "number-of-subarrays-with-bounded-maximum"
+  },
+  "Subarray Sums Divisible by K": {
+    "id": "974",
+    "canonicalTitle": "Subarray Sums Divisible by K",
+    "slug": "subarray-sums-divisible-by-k"
+  },
+  "Find Good Days to Rob the Bank": {
+    "id": "2100",
+    "canonicalTitle": "Find Good Days to Rob the Bank",
+    "slug": "find-good-days-to-rob-the-bank"
+  },
+  "Number of Ways to Split Array": {
+    "id": "2270",
+    "canonicalTitle": "Number of Ways to Split Array",
+    "slug": "number-of-ways-to-split-array"
+  },
+  "Ways to Split Array Into Three Subarrays": {
+    "id": "1712",
+    "canonicalTitle": "Ways to Split Array Into Three Subarrays",
+    "slug": "ways-to-split-array-into-three-subarrays"
+  },
+  "Maximum Sum of Two Non-Overlapping Subarrays": {
+    "id": "1031",
+    "canonicalTitle": "Maximum Sum of Two Non-Overlapping Subarrays",
+    "slug": "maximum-sum-of-two-non-overlapping-subarrays"
+  },
+  "Number of Submatrices That Sum to Target": {
+    "id": "1074",
+    "canonicalTitle": "Number of Submatrices That Sum to Target",
+    "slug": "number-of-submatrices-that-sum-to-target"
+  },
+  "Maximum Sum of 3 Non-Overlapping Subarrays": {
+    "id": "689",
+    "canonicalTitle": "Maximum Sum of 3 Non-Overlapping Subarrays",
+    "slug": "maximum-sum-of-3-non-overlapping-subarrays"
+  },
+  "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target": {
+    "id": "1546",
+    "canonicalTitle": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+    "slug": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target"
+  },
+  "Subarrays with K Different Integers": {
+    "id": "992",
+    "canonicalTitle": "Subarrays with K Different Integers",
+    "slug": "subarrays-with-k-different-integers"
+  },
+  "Minimum Cost to Split Array": {
+    "id": "2547",
+    "canonicalTitle": "Minimum Cost to Split an Array",
+    "slug": "minimum-cost-to-split-an-array"
+  },
+  "Count Subarrays With Sum K": {
+    "id": "560",
+    "canonicalTitle": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k"
+  },
+  "Find the K-Beauty of a Number": {
+    "id": "2269",
+    "canonicalTitle": "Find the K-Beauty of a Number",
+    "slug": "find-the-k-beauty-of-a-number"
+  },
+  "Maximum Average Subarray I": {
+    "id": "643",
+    "canonicalTitle": "Maximum Average Subarray I",
+    "slug": "maximum-average-subarray-i"
+  },
+  "Minimum Recolors to Get K Consecutive Black Blocks": {
+    "id": "2379",
+    "canonicalTitle": "Minimum Recolors to Get K Consecutive Black Blocks",
+    "slug": "minimum-recolors-to-get-k-consecutive-black-blocks"
+  },
+  "Maximum Sum of Distinct Subarrays With Length K": {
+    "id": "2461",
+    "canonicalTitle": "Maximum Sum of Distinct Subarrays With Length K",
+    "slug": "maximum-sum-of-distinct-subarrays-with-length-k"
+  },
+  "Sum of All Odd Length Subarrays": {
+    "id": "1588",
+    "canonicalTitle": "Sum of All Odd Length Subarrays",
+    "slug": "sum-of-all-odd-length-subarrays"
+  },
+  "Longest Turbulent Subarray": {
+    "id": "978",
+    "canonicalTitle": "Longest Turbulent Subarray",
+    "slug": "longest-turbulent-subarray"
+  },
+  "Subarray Product Less Than K": {
+    "id": "713",
+    "canonicalTitle": "Subarray Product Less Than K",
+    "slug": "subarray-product-less-than-k"
+  },
+  "Maximum Erasure Value": {
+    "id": "1695",
+    "canonicalTitle": "Maximum Erasure Value",
+    "slug": "maximum-erasure-value"
+  },
+  "Number of Substrings Containing All Three Characters": {
+    "id": "1358",
+    "canonicalTitle": "Number of Substrings Containing All Three Characters",
+    "slug": "number-of-substrings-containing-all-three-characters"
+  },
+  "Count Number of Nice Subarrays": {
+    "id": "1248",
+    "canonicalTitle": "Count Number of Nice Subarrays",
+    "slug": "count-number-of-nice-subarrays"
+  },
+  "Replace the Substring for Balanced String": {
+    "id": "1234",
+    "canonicalTitle": "Replace the Substring for Balanced String",
+    "slug": "replace-the-substring-for-balanced-string"
+  },
+  "Maximum Length of Subarray With Positive Product": {
+    "id": "1567",
+    "canonicalTitle": "Maximum Length of Subarray With Positive Product",
+    "slug": "maximum-length-of-subarray-with-positive-product"
+  },
+  "Longest Subarray of 1s After Deleting One Element": {
+    "id": "1493",
+    "canonicalTitle": "Longest Subarray of 1's After Deleting One Element",
+    "slug": "longest-subarray-of-1s-after-deleting-one-element"
+  },
+  "Maximum Points You Can Obtain from Cards": {
+    "id": "1423",
+    "canonicalTitle": "Maximum Points You Can Obtain from Cards",
+    "slug": "maximum-points-you-can-obtain-from-cards"
+  },
+  "Minimum Number of Operations to Make Array Continuous": {
+    "id": "2009",
+    "canonicalTitle": "Minimum Number of Operations to Make Array Continuous",
+    "slug": "minimum-number-of-operations-to-make-array-continuous"
+  },
+  "Maximum Subarray Sum After One Operation": {
+    "id": "1746",
+    "canonicalTitle": "Maximum Subarray Sum After One Operation",
+    "slug": "maximum-subarray-sum-after-one-operation"
+  },
+  "Sum of Subarray Ranges": {
+    "id": "2104",
+    "canonicalTitle": "Sum of Subarray Ranges",
+    "slug": "sum-of-subarray-ranges"
+  },
+  "Squares of a Sorted Array": {
+    "id": "977",
+    "canonicalTitle": "Squares of a Sorted Array",
+    "slug": "squares-of-a-sorted-array"
+  },
+  "Reverse Vowels of a String": {
+    "id": "345",
+    "canonicalTitle": "Reverse Vowels of a String",
+    "slug": "reverse-vowels-of-a-string"
+  },
+  "Reverse Words in a String III": {
+    "id": "557",
+    "canonicalTitle": "Reverse Words in a String III",
+    "slug": "reverse-words-in-a-string-iii"
+  },
+  "3Sum Closest": {
+    "id": "16",
+    "canonicalTitle": "3Sum Closest",
+    "slug": "3sum-closest"
+  },
+  "4Sum": {
+    "id": "18",
+    "canonicalTitle": "4Sum",
+    "slug": "4sum"
+  },
+  "Two Sum II - Input Array Is Sorted": {
+    "id": "167",
+    "canonicalTitle": "Two Sum II - Input Array Is Sorted",
+    "slug": "two-sum-ii-input-array-is-sorted"
+  },
+  "Max Number of K-Sum Pairs": {
+    "id": "1679",
+    "canonicalTitle": "Max Number of K-Sum Pairs",
+    "slug": "max-number-of-k-sum-pairs"
+  },
+  "String Compression": {
+    "id": "443",
+    "canonicalTitle": "String Compression",
+    "slug": "string-compression"
+  },
+  "Partition Labels": {
+    "id": "763",
+    "canonicalTitle": "Partition Labels",
+    "slug": "partition-labels"
+  },
+  "Boats to Save People": {
+    "id": "881",
+    "canonicalTitle": "Boats to Save People",
+    "slug": "boats-to-save-people"
+  },
+  "Push Dominoes": {
+    "id": "838",
+    "canonicalTitle": "Push Dominoes",
+    "slug": "push-dominoes"
+  },
+  "Pancake Sorting": {
+    "id": "969",
+    "canonicalTitle": "Pancake Sorting",
+    "slug": "pancake-sorting"
+  },
+  "4Sum II": {
+    "id": "454",
+    "canonicalTitle": "4Sum II",
+    "slug": "4sum-ii"
+  },
+  "Trapping Rain Water II": {
+    "id": "407",
+    "canonicalTitle": "Trapping Rain Water II",
+    "slug": "trapping-rain-water-ii"
+  },
+  "Candy": {
+    "id": "135",
+    "canonicalTitle": "Candy",
+    "slug": "candy"
+  },
+  "Defuse the Bomb": {
+    "id": "1652",
+    "canonicalTitle": "Defuse the Bomb",
+    "slug": "defuse-the-bomb"
+  },
+  "Maximum Number of Vowels in a Substring of Given Length": {
+    "id": "1456",
+    "canonicalTitle": "Maximum Number of Vowels in a Substring of Given Length",
+    "slug": "maximum-number-of-vowels-in-a-substring-of-given-length"
+  },
+  "Diet Plan Performance": {
+    "id": "1176",
+    "canonicalTitle": "Diet Plan Performance",
+    "slug": "diet-plan-performance"
+  },
+  "Minimum Size Subarray Sum": {
+    "id": "209",
+    "canonicalTitle": "Minimum Size Subarray Sum",
+    "slug": "minimum-size-subarray-sum"
+  },
+  "Max Consecutive Ones III": {
+    "id": "1004",
+    "canonicalTitle": "Max Consecutive Ones III",
+    "slug": "max-consecutive-ones-iii"
+  },
+  "Grumpy Bookstore Owner": {
+    "id": "1052",
+    "canonicalTitle": "Grumpy Bookstore Owner",
+    "slug": "grumpy-bookstore-owner"
+  },
+  "Find All Anagrams in a String": {
+    "id": "438",
+    "canonicalTitle": "Find All Anagrams in a String",
+    "slug": "find-all-anagrams-in-a-string"
+  },
+  "Fruit Into Baskets": {
+    "id": "904",
+    "canonicalTitle": "Fruit Into Baskets",
+    "slug": "fruit-into-baskets"
+  },
+  "Longest Substring with At Most Two Distinct Characters": {
+    "id": "159",
+    "canonicalTitle": "Longest Substring with At Most Two Distinct Characters",
+    "slug": "longest-substring-with-at-most-two-distinct-characters"
+  },
+  "Longest Substring with At Most K Distinct Characters": {
+    "id": "340",
+    "canonicalTitle": "Longest Substring with At Most K Distinct Characters",
+    "slug": "longest-substring-with-at-most-k-distinct-characters"
+  },
+  "Smallest Range Covering Elements from K Lists": {
+    "id": "632",
+    "canonicalTitle": "Smallest Range Covering Elements from K Lists",
+    "slug": "smallest-range-covering-elements-from-k-lists"
+  },
+  "Kth Largest Element in a Stream": {
+    "id": "703",
+    "canonicalTitle": "Kth Largest Element in a Stream",
+    "slug": "kth-largest-element-in-a-stream"
+  },
+  "Last Stone Weight": {
+    "id": "1046",
+    "canonicalTitle": "Last Stone Weight",
+    "slug": "last-stone-weight"
+  },
+  "Relative Ranks": {
+    "id": "506",
+    "canonicalTitle": "Relative Ranks",
+    "slug": "relative-ranks"
+  },
+  "K Weakest Rows in a Matrix": {
+    "id": "1337",
+    "canonicalTitle": "The K Weakest Rows in a Matrix",
+    "slug": "the-k-weakest-rows-in-a-matrix"
+  },
+  "Maximum Product of Two Elements in an Array": {
+    "id": "1464",
+    "canonicalTitle": "Maximum Product of Two Elements in an Array",
+    "slug": "maximum-product-of-two-elements-in-an-array"
+  },
+  "Make Array Zero by Subtracting Equal Amounts": {
+    "id": "2357",
+    "canonicalTitle": "Make Array Zero by Subtracting Equal Amounts",
+    "slug": "make-array-zero-by-subtracting-equal-amounts"
+  },
+  "Minimum Amount of Time to Fill Cups": {
+    "id": "2335",
+    "canonicalTitle": "Minimum Amount of Time to Fill Cups",
+    "slug": "minimum-amount-of-time-to-fill-cups"
+  },
+  "Sort Integers by The Number of 1 Bits": {
+    "id": "1356",
+    "canonicalTitle": "Sort Integers by The Number of 1 Bits",
+    "slug": "sort-integers-by-the-number-of-1-bits"
+  },
+  "K Closest Points to Origin": {
+    "id": "973",
+    "canonicalTitle": "K Closest Points to Origin",
+    "slug": "k-closest-points-to-origin"
+  },
+  "Sort Characters By Frequency": {
+    "id": "451",
+    "canonicalTitle": "Sort Characters By Frequency",
+    "slug": "sort-characters-by-frequency"
+  },
+  "Reduce Array Size to The Half": {
+    "id": "1338",
+    "canonicalTitle": "Reduce Array Size to The Half",
+    "slug": "reduce-array-size-to-the-half"
+  },
+  "Single Threaded CPU": {
+    "id": "1834",
+    "canonicalTitle": "Single-Threaded CPU",
+    "slug": "single-threaded-cpu"
+  },
+  "Minimum Cost to Connect Sticks": {
+    "id": "1167",
+    "canonicalTitle": "Minimum Cost to Connect Sticks",
+    "slug": "minimum-cost-to-connect-sticks"
+  },
+  "Reorganize String": {
+    "id": "767",
+    "canonicalTitle": "Reorganize String",
+    "slug": "reorganize-string"
+  },
+  "Find K Pairs with Smallest Sums": {
+    "id": "373",
+    "canonicalTitle": "Find K Pairs with Smallest Sums",
+    "slug": "find-k-pairs-with-smallest-sums"
+  },
+  "Super Ugly Number": {
+    "id": "313",
+    "canonicalTitle": "Super Ugly Number",
+    "slug": "super-ugly-number"
+  },
+  "Kth Smallest Element in a Sorted Matrix": {
+    "id": "378",
+    "canonicalTitle": "Kth Smallest Element in a Sorted Matrix",
+    "slug": "kth-smallest-element-in-a-sorted-matrix"
+  },
+  "Design Twitter": {
+    "id": "355",
+    "canonicalTitle": "Design Twitter",
+    "slug": "design-twitter"
+  },
+  "Car Pooling": {
+    "id": "1094",
+    "canonicalTitle": "Car Pooling",
+    "slug": "car-pooling"
+  },
+  "Maximum Number of Events That Can Be Attended": {
+    "id": "1353",
+    "canonicalTitle": "Maximum Number of Events That Can Be Attended",
+    "slug": "maximum-number-of-events-that-can-be-attended"
+  },
+  "Find Median from Data Stream": {
+    "id": "295",
+    "canonicalTitle": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream"
+  },
+  "IPO": {
+    "id": "502",
+    "canonicalTitle": "IPO",
+    "slug": "ipo"
+  },
+  "Maximum Performance of a Team": {
+    "id": "1383",
+    "canonicalTitle": "Maximum Performance of a Team",
+    "slug": "maximum-performance-of-a-team"
+  },
+  "Minimum Number of Refueling Stops": {
+    "id": "871",
+    "canonicalTitle": "Minimum Number of Refueling Stops",
+    "slug": "minimum-number-of-refueling-stops"
+  },
+  "Combinations": {
+    "id": "77",
+    "canonicalTitle": "Combinations",
+    "slug": "combinations"
+  },
+  "Permutations": {
+    "id": "46",
+    "canonicalTitle": "Permutations",
+    "slug": "permutations"
+  },
+  "Subsets II": {
+    "id": "90",
+    "canonicalTitle": "Subsets II",
+    "slug": "subsets-ii"
+  },
+  "Combination Sum": {
+    "id": "39",
+    "canonicalTitle": "Combination Sum",
+    "slug": "combination-sum"
+  },
+  "Combination Sum II": {
+    "id": "40",
+    "canonicalTitle": "Combination Sum II",
+    "slug": "combination-sum-ii"
+  },
+  "Permutations II": {
+    "id": "47",
+    "canonicalTitle": "Permutations II",
+    "slug": "permutations-ii"
+  },
+  "Palindrome Partitioning": {
+    "id": "131",
+    "canonicalTitle": "Palindrome Partitioning",
+    "slug": "palindrome-partitioning"
+  },
+  "Word Search": {
+    "id": "79",
+    "canonicalTitle": "Word Search",
+    "slug": "word-search"
+  },
+  "Restore IP Addresses": {
+    "id": "93",
+    "canonicalTitle": "Restore IP Addresses",
+    "slug": "restore-ip-addresses"
+  },
+  "Matchsticks to Square": {
+    "id": "473",
+    "canonicalTitle": "Matchsticks to Square",
+    "slug": "matchsticks-to-square"
+  },
+  "Letter Tile Possibilities": {
+    "id": "1079",
+    "canonicalTitle": "Letter Tile Possibilities",
+    "slug": "letter-tile-possibilities"
+  },
+  "Beautiful Arrangement": {
+    "id": "526",
+    "canonicalTitle": "Beautiful Arrangement",
+    "slug": "beautiful-arrangement"
+  },
+  "Combination Sum III": {
+    "id": "216",
+    "canonicalTitle": "Combination Sum III",
+    "slug": "combination-sum-iii"
+  },
+  "Numbers At Most N Given Digit Set": {
+    "id": "902",
+    "canonicalTitle": "Numbers At Most N Given Digit Set",
+    "slug": "numbers-at-most-n-given-digit-set"
+  },
+  "Count Numbers With Unique Digits": {
+    "id": "357",
+    "canonicalTitle": "Count Numbers with Unique Digits",
+    "slug": "count-numbers-with-unique-digits"
+  },
+  "Split a String Into the Max Number of Unique Substrings": {
+    "id": "1593",
+    "canonicalTitle": "Split a String Into the Max Number of Unique Substrings",
+    "slug": "split-a-string-into-the-max-number-of-unique-substrings"
+  },
+  "Maximum Length of a Concatenated String with Unique Characters": {
+    "id": "1239",
+    "canonicalTitle": "Maximum Length of a Concatenated String with Unique Characters",
+    "slug": "maximum-length-of-a-concatenated-string-with-unique-characters"
+  },
+  "Word Pattern II": {
+    "id": "291",
+    "canonicalTitle": "Word Pattern II",
+    "slug": "word-pattern-ii"
+  },
+  "N-Queens": {
+    "id": "51",
+    "canonicalTitle": "N-Queens",
+    "slug": "n-queens"
+  },
+  "Sudoku Solver": {
+    "id": "37",
+    "canonicalTitle": "Sudoku Solver",
+    "slug": "sudoku-solver"
+  },
+  "Expression Add Operators": {
+    "id": "282",
+    "canonicalTitle": "Expression Add Operators",
+    "slug": "expression-add-operators"
+  },
+  "Word Break II": {
+    "id": "140",
+    "canonicalTitle": "Word Break II",
+    "slug": "word-break-ii"
+  },
+  "Remove Invalid Parentheses": {
+    "id": "301",
+    "canonicalTitle": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses"
+  },
+  "Maximum Number of Achievable Transfer Requests": {
+    "id": "1601",
+    "canonicalTitle": "Maximum Number of Achievable Transfer Requests",
+    "slug": "maximum-number-of-achievable-transfer-requests"
+  },
+  "Binary Search": {
+    "id": "704",
+    "canonicalTitle": "Binary Search",
+    "slug": "binary-search"
+  },
+  "Search Insert Position": {
+    "id": "35",
+    "canonicalTitle": "Search Insert Position",
+    "slug": "search-insert-position"
+  },
+  "First Bad Version": {
+    "id": "278",
+    "canonicalTitle": "First Bad Version",
+    "slug": "first-bad-version"
+  },
+  "Guess Number Higher or Lower": {
+    "id": "374",
+    "canonicalTitle": "Guess Number Higher or Lower",
+    "slug": "guess-number-higher-or-lower"
+  },
+  "Valid Perfect Square": {
+    "id": "367",
+    "canonicalTitle": "Valid Perfect Square",
+    "slug": "valid-perfect-square"
+  },
+  "Arranging Coins": {
+    "id": "441",
+    "canonicalTitle": "Arranging Coins",
+    "slug": "arranging-coins"
+  },
+  "Sqrt(x)": {
+    "id": "69",
+    "canonicalTitle": "Sqrt(x)",
+    "slug": "sqrtx"
+  },
+  "Peak Index in a Mountain Array": {
+    "id": "852",
+    "canonicalTitle": "Peak Index in a Mountain Array",
+    "slug": "peak-index-in-a-mountain-array"
+  },
+  "Search a 2D Matrix": {
+    "id": "74",
+    "canonicalTitle": "Search a 2D Matrix",
+    "slug": "search-a-2d-matrix"
+  },
+  "Search a 2D Matrix II": {
+    "id": "240",
+    "canonicalTitle": "Search a 2D Matrix II",
+    "slug": "search-a-2d-matrix-ii"
+  },
+  "Find Peak Element": {
+    "id": "162",
+    "canonicalTitle": "Find Peak Element",
+    "slug": "find-peak-element"
+  },
+  "Find First and Last Position of Element in Sorted Array": {
+    "id": "34",
+    "canonicalTitle": "Find First and Last Position of Element in Sorted Array",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array"
+  },
+  "Single Element in a Sorted Array": {
+    "id": "540",
+    "canonicalTitle": "Single Element in a Sorted Array",
+    "slug": "single-element-in-a-sorted-array"
+  },
+  "Find Minimum in Rotated Sorted Array II": {
+    "id": "154",
+    "canonicalTitle": "Find Minimum in Rotated Sorted Array II",
+    "slug": "find-minimum-in-rotated-sorted-array-ii"
+  },
+  "Capacity To Ship Packages Within D Days": {
+    "id": "1011",
+    "canonicalTitle": "Capacity To Ship Packages Within D Days",
+    "slug": "capacity-to-ship-packages-within-d-days"
+  },
+  "Find K Closest Elements": {
+    "id": "658",
+    "canonicalTitle": "Find K Closest Elements",
+    "slug": "find-k-closest-elements"
+  },
+  "Divide Two Integers": {
+    "id": "29",
+    "canonicalTitle": "Divide Two Integers",
+    "slug": "divide-two-integers"
+  },
+  "Search in a Sorted Array of Unknown Size": {
+    "id": "702",
+    "canonicalTitle": "Search in a Sorted Array of Unknown Size",
+    "slug": "search-in-a-sorted-array-of-unknown-size"
+  },
+  "H-Index II": {
+    "id": "275",
+    "canonicalTitle": "H-Index II",
+    "slug": "h-index-ii"
+  },
+  "Minimum Limit of Balls in a Bag": {
+    "id": "1760",
+    "canonicalTitle": "Minimum Limit of Balls in a Bag",
+    "slug": "minimum-limit-of-balls-in-a-bag"
+  },
+  "Split Array Largest Sum": {
+    "id": "410",
+    "canonicalTitle": "Split Array Largest Sum",
+    "slug": "split-array-largest-sum"
+  },
+  "Divide Chocolate": {
+    "id": "1231",
+    "canonicalTitle": "Divide Chocolate",
+    "slug": "divide-chocolate"
+  },
+  "Kth Smallest Number in Multiplication Table": {
+    "id": "668",
+    "canonicalTitle": "Kth Smallest Number in Multiplication Table",
+    "slug": "kth-smallest-number-in-multiplication-table"
+  },
+  "Minimum Time to Complete Trips": {
+    "id": "2187",
+    "canonicalTitle": "Minimum Time to Complete Trips",
+    "slug": "minimum-time-to-complete-trips"
+  },
+  "Minimum Speed to Arrive on Time": {
+    "id": "1870",
+    "canonicalTitle": "Minimum Speed to Arrive on Time",
+    "slug": "minimum-speed-to-arrive-on-time"
+  },
+  "Assign Cookies": {
+    "id": "455",
+    "canonicalTitle": "Assign Cookies",
+    "slug": "assign-cookies"
+  },
+  "Is Subsequence": {
+    "id": "392",
+    "canonicalTitle": "Is Subsequence",
+    "slug": "is-subsequence"
+  },
+  "Maximum Units on a Truck": {
+    "id": "1710",
+    "canonicalTitle": "Maximum Units on a Truck",
+    "slug": "maximum-units-on-a-truck"
+  },
+  "Can Place Flowers": {
+    "id": "605",
+    "canonicalTitle": "Can Place Flowers",
+    "slug": "can-place-flowers"
+  },
+  "Lemonade Change": {
+    "id": "860",
+    "canonicalTitle": "Lemonade Change",
+    "slug": "lemonade-change"
+  },
+  "Longest Palindrome": {
+    "id": "409",
+    "canonicalTitle": "Longest Palindrome",
+    "slug": "longest-palindrome"
+  },
+  "Jump Game": {
+    "id": "55",
+    "canonicalTitle": "Jump Game",
+    "slug": "jump-game"
+  },
+  "Jump Game II": {
+    "id": "45",
+    "canonicalTitle": "Jump Game II",
+    "slug": "jump-game-ii"
+  },
+  "Gas Station": {
+    "id": "134",
+    "canonicalTitle": "Gas Station",
+    "slug": "gas-station"
+  },
+  "Minimum Number of Arrows to Burst Balloons": {
+    "id": "452",
+    "canonicalTitle": "Minimum Number of Arrows to Burst Balloons",
+    "slug": "minimum-number-of-arrows-to-burst-balloons"
+  },
+  "Non-overlapping Intervals": {
+    "id": "435",
+    "canonicalTitle": "Non-overlapping Intervals",
+    "slug": "non-overlapping-intervals"
+  },
+  "Queue Reconstruction by Height": {
+    "id": "406",
+    "canonicalTitle": "Queue Reconstruction by Height",
+    "slug": "queue-reconstruction-by-height"
+  },
+  "Monotone Increasing Digits": {
+    "id": "738",
+    "canonicalTitle": "Monotone Increasing Digits",
+    "slug": "monotone-increasing-digits"
+  },
+  "Two City Scheduling": {
+    "id": "1029",
+    "canonicalTitle": "Two City Scheduling",
+    "slug": "two-city-scheduling"
+  },
+  "Bag of Tokens": {
+    "id": "948",
+    "canonicalTitle": "Bag of Tokens",
+    "slug": "bag-of-tokens"
+  },
+  "Maximum Binary String After Change": {
+    "id": "1702",
+    "canonicalTitle": "Maximum Binary String After Change",
+    "slug": "maximum-binary-string-after-change"
+  },
+  "Minimum Number of Taps to Open to Water a Garden": {
+    "id": "1326",
+    "canonicalTitle": "Minimum Number of Taps to Open to Water a Garden",
+    "slug": "minimum-number-of-taps-to-open-to-water-a-garden"
+  },
+  "Create Maximum Number": {
+    "id": "321",
+    "canonicalTitle": "Create Maximum Number",
+    "slug": "create-maximum-number"
+  }
+}

@@ -1,0 +1,351 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 50 30% 96%;
+    --foreground: 90 8% 20%;
+    --paper: 50 30% 96%;
+    --paper-2: 47 26% 91%;
+    --ink: 90 8% 20%;
+    --brown: 30 26% 44%;
+    --green: 98 23% 53%;
+    --orange: 28 65% 57%;
+
+    --card: 47 26% 91%;
+    --card-foreground: 90 8% 20%;
+    --popover: 50 30% 96%;
+    --popover-foreground: 90 8% 20%;
+    --primary: 98 23% 53%;
+    --primary-foreground: 50 30% 96%;
+    --secondary: 47 26% 91%;
+    --secondary-foreground: 30 26% 44%;
+    --muted: 47 26% 91%;
+    --muted-foreground: 30 26% 44%;
+    --accent: 28 65% 57%;
+    --accent-foreground: 50 30% 96%;
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 50 30% 96%;
+    --border: 30 26% 80%;
+    --input: 47 26% 91%;
+    --ring: 28 65% 57%;
+    --radius: 0.25rem;
+
+    --font-heading: 'Fraunces', ui-serif, Georgia, serif;
+    --font-body: 'Work Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Fraunces', ui-serif, Georgia, serif;
+    --font-hand: 'Caveat', ui-serif, cursive;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    --font-reading: 'Spectral', ui-serif, Georgia, serif;
+  }
+
+  .dark {
+    --background: 36 12% 11%;
+    --foreground: 40 24% 90%;
+    --paper: 36 12% 11%;
+    --paper-2: 36 10% 15%;
+    --ink: 40 24% 90%;
+    --brown: 35 22% 68%;
+    --green: 95 32% 62%;
+    --orange: 28 72% 64%;
+    --card: 36 10% 15%;
+    --card-foreground: 40 24% 90%;
+    --popover: 36 12% 11%;
+    --popover-foreground: 40 24% 90%;
+    --primary: 95 32% 62%;
+    --primary-foreground: 36 12% 11%;
+    --secondary: 36 10% 15%;
+    --secondary-foreground: 35 22% 68%;
+    --muted: 36 10% 15%;
+    --muted-foreground: 35 22% 68%;
+    --accent: 28 72% 64%;
+    --accent-foreground: 36 12% 11%;
+    --destructive: 0 50% 55%;
+    --destructive-foreground: 40 24% 90%;
+    --border: 36 8% 26%;
+    --input: 36 10% 15%;
+    --ring: 28 72% 64%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground font-body;
+    background-color: hsl(var(--paper));
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: hsl(var(--brown));
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background: hsl(var(--orange) / 0.35);
+    color: hsl(var(--ink));
+  }
+
+  *:focus-visible {
+    outline: 2px dashed hsl(var(--orange));
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Paper grain texture */
+  .paper-grain {
+    background-color: hsl(var(--paper));
+    background-image:
+      radial-gradient(hsl(var(--ink) / 0.025) 1px, transparent 1px),
+      radial-gradient(hsl(var(--brown) / 0.02) 1px, transparent 1px);
+    background-size: 3px 3px, 7px 7px;
+    background-position: 0 0, 1px 2px;
+  }
+
+  /* Ruled lines like notebook paper */
+  .ruled-lines {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 31px,
+      hsl(var(--brown) / 0.12) 31px,
+      hsl(var(--brown) / 0.12) 32px
+    );
+  }
+
+  .margin-line {
+    background-image: linear-gradient(
+      to right,
+      transparent 0,
+      transparent calc(100% - 1px),
+      hsl(var(--orange) / 0.4) calc(100% - 1px)
+    );
+  }
+
+  .handwriting {
+    font-family: var(--font-hand);
+    font-weight: 500;
+    color: hsl(var(--brown));
+    transform: rotate(-1deg);
+    line-height: 1.3;
+  }
+
+  .page-lift {
+    box-shadow: 0 1px 0 hsl(var(--ink) / 0.06), 0 2px 4px hsl(var(--ink) / 0.05);
+  }
+
+  .ink-underline {
+    background-image: linear-gradient(transparent 62%, hsl(var(--green) / 0.35) 62%, hsl(var(--green) / 0.35) 92%, transparent 92%);
+  }
+
+  .marker-highlight {
+    background-image: linear-gradient(120deg, hsl(var(--orange) / 0.28) 0%, hsl(var(--orange) / 0.18) 100%);
+    padding: 0 2px;
+  }
+
+  .highlight-green {
+    background-image: linear-gradient(120deg, hsl(var(--green) / 0.16) 0%, hsl(var(--green) / 0.08) 100%);
+    padding: 0 2px;
+  }
+
+  .highlight-orange {
+    background-image: linear-gradient(120deg, hsl(var(--orange) / 0.18) 0%, hsl(var(--orange) / 0.10) 100%);
+    padding: 0 2px;
+  }
+
+  .highlight-brown {
+    background-image: linear-gradient(120deg, hsl(var(--brown) / 0.12) 0%, hsl(var(--brown) / 0.06) 100%);
+    padding: 0 2px;
+  }
+
+  .double-rule {
+    border-top: 3px double hsl(var(--brown) / 0.5);
+  }
+
+  .stamp {
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.65rem;
+    font-weight: 600;
+    border: 1.5px solid currentColor;
+    padding: 2px 6px;
+    border-radius: 2px;
+    display: inline-block;
+    transform: rotate(-3deg);
+  }
+
+  .hand-stamp {
+    font-family: var(--font-hand);
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: hsl(var(--green));
+    border: 1.5px solid hsl(var(--green) / 0.45);
+    padding: 0 6px 1px;
+    border-radius: 3px;
+    display: inline-block;
+    transform: rotate(-5deg);
+    line-height: 1.3;
+    background: hsl(var(--green) / 0.07);
+    white-space: nowrap;
+  }
+}
+
+@layer utilities {
+  .font-hand { font-family: var(--font-hand); }
+  .font-mono-code { font-family: var(--font-mono); }
+  .font-reading { font-family: var(--font-reading); }
+  .measure { max-width: 66ch; }
+
+  .drop-cap::first-letter {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 3.1em;
+    float: left;
+    line-height: 0.78;
+    padding-right: 0.1em;
+    padding-top: 0.04em;
+    color: hsl(var(--brown));
+  }
+  .text-ink { color: hsl(var(--ink)); }
+  .text-brown { color: hsl(var(--brown)); }
+  .text-green-ink { color: hsl(var(--green)); }
+  .text-orange-ink { color: hsl(var(--orange)); }
+  .bg-paper { background-color: hsl(var(--paper)); }
+  .bg-paper-2 { background-color: hsl(var(--paper-2)); }
+  .border-brown { border-color: hsl(var(--brown) / 0.4); }
+
+  @keyframes ink-draw {
+    from { stroke-dashoffset: 100; opacity: 0; }
+    to { stroke-dashoffset: 0; opacity: 1; }
+  }
+  .animate-ink-draw {
+    stroke-dasharray: 100;
+    animation: ink-draw 0.5s ease-out forwards;
+  }
+
+  @keyframes page-turn-in {
+    from { opacity: 0; transform: translateX(12px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  .animate-page-turn {
+    animation: page-turn-in 0.25s ease-out;
+  }
+}
+
+@media print {
+  @page { margin: 0.5in; }
+  body { background: white !important; }
+  aside, [class*="md:hidden"] { display: none !important; }
+  main { padding: 0 !important; }
+  main > div { max-width: none !important; padding: 0 !important; }
+  .no-print { display: none !important; }
+}
+/* Quiet inline syntax; React text rendering keeps source content literal. */
+.inline-code {
+  font-family: var(--font-mono);
+  font-size: 0.82em;
+  color: hsl(var(--ink));
+  background: hsl(var(--brown) / 0.07);
+  border: 1px solid hsl(var(--brown) / 0.12);
+  border-radius: 3px;
+  padding: 0.08em 0.3em;
+  overflow-wrap: anywhere;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Small paper annotations, not dashboard cards. */
+.mentor-note {
+  --note-accent: var(--brown);
+  position: relative;
+  padding: 18px 16px 13px;
+  border: 1px solid hsl(var(--note-accent) / 0.24);
+  border-left: 3px solid hsl(var(--note-accent) / 0.55);
+  border-radius: 2px 5px 9px 3px;
+  background: linear-gradient(135deg, hsl(var(--note-accent) / 0.09), transparent 75%), hsl(var(--paper));
+  box-shadow: 1px 3px 0 hsl(var(--ink) / 0.035), 0 5px 12px hsl(var(--ink) / 0.045);
+  transform: rotate(-0.6deg);
+  overflow-wrap: anywhere;
+}
+.mentor-note:nth-of-type(even) { transform: rotate(0.5deg); }
+.mentor-note-orange { --note-accent: var(--orange); }
+.mentor-note-green { --note-accent: var(--green); }
+.mentor-note-brown { --note-accent: var(--brown); }
+.mentor-tape {
+  position: absolute;
+  top: -7px;
+  left: 40%;
+  width: 46px;
+  height: 14px;
+  background: hsl(var(--brown) / 0.12);
+  border-left: 1px dashed hsl(var(--brown) / 0.14);
+  border-right: 1px dashed hsl(var(--brown) / 0.14);
+  transform: rotate(-7deg);
+}
+.mentor-note-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  border: 1px solid hsl(var(--note-accent) / 0.35);
+  border-radius: 48% 42% 46% 40%;
+  background: hsl(var(--note-accent) / 0.08);
+}
+.mentor-note-label {
+  background: linear-gradient(transparent 65%, hsl(var(--note-accent) / 0.14) 65%, hsl(var(--note-accent) / 0.14) 92%, transparent 92%);
+}
+.mentor-scribble { display: block; margin: 10px 0 0 auto; opacity: 0.55; }
+.mentor-note .inline-code { font-size: 0.65em; }
+@media (max-width: 639px) { .mentor-note { transform: none; } .mentor-note:nth-of-type(even) { transform: none; } }
+
+.lesson-diagram { padding: 20px; border: 1px solid hsl(var(--brown) / .3); border-radius: 4px; background: hsl(var(--paper-2) / .35); }
+.diagram-label { fill: hsl(var(--ink)); font-family: var(--font-body); font-size: 15px; }
+.diagram-detail { fill: hsl(var(--brown)); font-family: var(--font-body); font-size: 12px; }
+.code-example-line { display: flex; min-width: max-content; }
+.code-example-line:hover { background: hsl(var(--brown) / .04); }
+.code-line-number { width: 3.4em; flex-shrink: 0; text-align: right; padding-right: 1em; margin-right: 1em; border-right: 1px solid hsl(var(--brown) / .15); color: hsl(var(--brown) / .55); user-select: none; font-size: 11px; }
+@media (max-width: 639px) { .lesson-diagram { padding: 14px; } }
+
+.code-example-scroll { max-height: 30rem; overflow: auto; scroll-margin-top: 8rem; }
+.lesson-diagram { scroll-margin-top: 8rem; }
+.code-example-line { min-height: 1.75rem; }
+
+/* Accessibility: keep the paper palette; keyboard focus must not depend on hover. */
+:focus-visible { outline: 2px solid hsl(var(--ink)); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .animate-page-turn { opacity: 1 !important; transform: none !important; }
+}
+@media print {
+  @page { margin: 12mm; }
+  header.sticky, footer, nav, .no-print, button, [role="alert"] { display: none !important; }
+  body, .dark { background: white !important; color: black !important; --paper: 0 0% 100%; --paper-2: 0 0% 98%; --ink: 0 0% 0%; --brown: 0 0% 25%; }
+  * { box-shadow: none !important; text-shadow: none !important; animation: none !important; }
+  main, main > div { max-width: none !important; padding: 0 !important; }
+  pre, .code-example-scroll { max-height: none !important; overflow: visible !important; white-space: pre-wrap !important; overflow-wrap: anywhere; }
+  .code-example-line { min-width: 0 !important; break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; }
+}
+
+/* Long curriculum notebooks print as documents, never as a promised single page. */
+@media print {
+  @page { size: auto; margin: 14mm; }
+  .print-lesson, .curriculum-print .build-unit { break-before: page; }
+  .print-lesson:first-of-type { break-before: auto; }
+  .build-unit { break-inside: auto; }
+  .curriculum-print aside { position: static !important; }
+  .curriculum-print pre, .build-unit pre { white-space: pre-wrap !important; overflow-wrap: anywhere; }
+  .curriculum-print article, .build-unit { animation: none !important; }
+  a[href^="https:"] { overflow-wrap: anywhere; }
+  input[type="checkbox"], progress { display: none !important; }
+}

@@ -1,0 +1,16 @@
+import {getInstallPrompt,subscribeInstallPrompt,clearInstallPrompt} from "@/lib/installPrompt";
+import {useEffect,useState} from 'react';
+import {installPlatform} from '@/lib/installState';
+export default function InstallApp(){
+ const [prompt,setPrompt]=useState(getInstallPrompt),[platform,setPlatform]=useState('desktop'),[message,setMessage]=useState('');
+ useEffect(()=>{
+  const media=matchMedia('(display-mode: standalone)');
+  const sync=()=>setPlatform(installPlatform({userAgent:navigator.userAgent,platform:navigator.platform,maxTouchPoints:navigator.maxTouchPoints,standalone:('standalone' in navigator && Boolean(navigator.standalone)),displayStandalone:media.matches}));
+  const unsubscribe=subscribeInstallPrompt(event=>setPrompt(()=>event));
+  const installed=()=>{setPrompt(null);setPlatform('installed');setMessage('Installed. Open it from your apps or home screen.');};
+  sync();window.addEventListener('appinstalled',installed);media.addEventListener?.('change',sync);
+  return()=>{unsubscribe();window.removeEventListener('appinstalled',installed);media.removeEventListener?.('change',sync);};
+ },[]);
+ const install=async()=>{if(!prompt)return;try{await prompt.prompt();const choice=await prompt.userChoice;setMessage(choice.outcome==='accepted'?'Installation requested. Your browser will finish the installation.':'Not installed. You can try again from your browser menu.');}catch{setMessage('The browser could not open its install dialog. Use its Install app/Add to Home Screen menu.');}finally{clearInstallPrompt();}};
+ return <section aria-labelledby="install-heading" className="border border-brown/40 rounded-sm bg-paper-2/40 p-5 space-y-3 no-print"><h2 id="install-heading" className="text-xl font-semibold">Install on this device</h2><p className="text-sm text-brown">Temporary installed name: <strong>Inklet</strong>. Final name, logo approval and the public HTTPS address are reserved for the last release step. No public site has been published.</p>{platform==='installed'?<p role="status">Installed, or already running in an app window.</p>:<>{prompt&&<button className="border border-greenink bg-greenink/10 rounded-sm px-4 py-3 min-h-[44px]" onClick={install}>Install Inklet</button>}{platform==='ios'?<p>On iPhone or iPad, open this site in Safari, tap Share, choose Add to Home Screen, then Add. If offered, keep Open as Web App enabled. This browser does not provide our one-click install prompt.</p>:platform==='android'?<p>If an Install button appears above, use it. Otherwise open the browser menu and look for Install app or Add to Home Screen. The wording and installed experience depend on your browser.</p>:<p>In Chrome or Edge, use the Install button when available, or the install icon/browser menu. In supported Safari versions on Mac, use File → Add to Dock. Other browsers may offer only a shortcut or no installation.</p>}</>}<p className="text-sm text-brown">Installing does not download every lesson or external resource. Save chosen subjects in the Offline library. Progress is stored separately on each browser/device; export a backup to transfer it. For phone access we still need the final hosted HTTPS address; localhost refers to the phone itself.</p>{message&&<p role="status">{message}</p>}</section>;
+}

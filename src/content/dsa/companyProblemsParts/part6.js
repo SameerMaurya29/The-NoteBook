@@ -1,0 +1,37 @@
+export const PART6 = [
+  {
+    "company": "Meta",
+    "questions": [
+      {"title": "Two Sum", "difficulty": "easy", "link": "https://leetcode.com/problems/two-sum", "topics": "Array, Hash Table"},
+      {"title": "Longest Substring Without Repeating Characters", "difficulty": "medium", "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters", "topics": "Hash Table, String, Sliding Window"},
+      {"title": "Subarray Sum Equals K", "difficulty": "medium", "link": "https://leetcode.com/problems/subarray-sum-equals-k", "topics": "Array, Hash Table, Prefix Sum"},
+      {"title": "Add Two Numbers", "difficulty": "medium", "link": "https://leetcode.com/problems/add-two-numbers", "topics": "Linked List, Math, Recursion"},
+      {"title": "Palindrome Number", "difficulty": "easy", "link": "https://leetcode.com/problems/palindrome-number", "topics": "Math"},
+      {"title": "Median of Two Sorted Arrays", "difficulty": "hard", "link": "https://leetcode.com/problems/median-of-two-sorted-arrays", "topics": "Array, Binary Search, Divide and Conquer"},
+      {"title": "Best Time to Buy and Sell Stock", "difficulty": "easy", "link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", "topics": "Array, Dynamic Programming"},
+      {"title": "Kth Largest Element in an Array", "difficulty": "medium", "link": "https://leetcode.com/problems/kth-largest-element-in-an-array", "topics": "Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect"},
+      {"title": "Group Anagrams", "difficulty": "medium", "link": "https://leetcode.com/problems/group-anagrams", "topics": "Array, Hash Table, String, Sorting"},
+      {"title": "Remove Duplicates from Sorted Array", "difficulty": "easy", "link": "https://leetcode.com/problems/remove-duplicates-from-sorted-array", "topics": "Array, Two Pointers"},
+      {"title": "Move Zeroes", "difficulty": "easy", "link": "https://leetcode.com/problems/move-zeroes", "topics": "Array, Two Pointers"},
+      {"title": "3Sum", "difficulty": "medium", "link": "https://leetcode.com/problems/3sum", "topics": "Array, Two Pointers, Sorting"},
+      {"title": "Valid Parentheses", "difficulty": "easy", "link": "https://leetcode.com/problems/valid-parentheses", "topics": "String, Stack, Bracket Sequences"},
+      {"title": "Next Permutation", "difficulty": "medium", "link": "https://leetcode.com/problems/next-permutation", "topics": "Array, Two Pointers"},
+      {"title": "Minimum Size Subarray Sum", "difficulty": "medium", "link": "https://leetcode.com/problems/minimum-size-subarray-sum", "topics": "Array, Binary Search, Sliding Window, Prefix Sum"},
+      {"title": "Maximum Subarray", "difficulty": "medium", "link": "https://leetcode.com/problems/maximum-subarray", "topics": "Array, Divide and Conquer, Dynamic Programming"},
+      {"title": "Reverse Integer", "difficulty": "medium", "link": "https://leetcode.com/problems/reverse-integer", "topics": "Math"},
+      {"title": "Longest Palindromic Substring", "difficulty": "medium", "link": "https://leetcode.com/problems/longest-palindromic-substring", "topics": "Two Pointers, String, Dynamic Programming, Manacher"},
+      {"title": "Search in Rotated Sorted Array", "difficulty": "medium", "link": "https://leetcode.com/problems/search-in-rotated-sorted-array", "topics": "Array, Binary Search"},
+      {"title": "Container With Most Water", "difficulty": "medium", "link": "https://leetcode.com/problems/container-with-most-water", "topics": "Array, Two Pointers, Greedy"},
+      {"title": "Koko Eating Bananas", "difficulty": "medium", "link": "https://leetcode.com/problems/koko-eating-bananas", "topics": "Array, Binary Search"},
+      {"title": "Majority Element", "difficulty": "easy", "link": "https://leetcode.com/problems/majority-element", "topics": "Array, Hash Table, Divide and Conquer, Sorting, Counting, Boyer–Moore Majority Vote Algorithm"},
+      {"title": "Contains Duplicate", "difficulty": "easy", "link": "https://leetcode.com/problems/contains-duplicate", "topics": "Array, Hash Table, Sorting"},
+      {"title": "Merge Intervals", "difficulty": "medium", "link": "https://leetcode.com/problems/merge-intervals", "topics": "Array, Sorting, Quicksort"},
+      {"title": "Valid Anagram", "difficulty": "easy", "link": "https://leetcode.com/problems/valid-anagram", "topics": "Hash Table, String, Sorting"},
+      {"title": "Coin Change", "difficulty": "medium", "link": "https://leetcode.com/problems/coin-change", "topics": "Array, Dynamic Programming, Breadth-First Search, Knapsack Problem, Complete Knapsack"},
+      {"title": "Trapping Rain Water", "difficulty": "hard", "link": "https://leetcode.com/problems/trapping-rain-water", "topics": "Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack"},
+      {"title": "Max Consecutive Ones III", "difficulty": "medium", "link": "https://leetcode.com/problems/max-consecutive-ones-iii", "topics": "Array, Binary Search, Sliding Window, Prefix Sum"},
+      {"title": "Valid Palindrome", "difficulty": "easy", "link": "https://leetcode.com/problems/valid-palindrome", "topics": "Two Pointers, String"},
+      {"title": "Find Peak Element", "difficulty": "medium", "link": "https://leetcode.com/problems/find-peak-element", "topics": "Array, Binary Search"},
+    ]
+  }
+];
